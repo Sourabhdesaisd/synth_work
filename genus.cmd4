@@ -1,11 +1,11 @@
 # Cadence Genus(TM) Synthesis Solution, Version 17.22-s017_1, built Apr  1 2018
 
-# Date: Wed Mar 06 23:24:42 2019
+# Date: Thu Mar 07 03:23:09 2019
 # Host: compute-srv2.eda.atme.in (x86_64 w/Linux 3.10.0-1160.49.1.el7.x86_64) (8cores*64cpus*4physical cpus*Intel(R) Xeon(R) CPU E5-4650 0 @ 2.70GHz 20480KB)
 # OS:   CentOS Linux release 7.9.2009 (Core)
 
-set _REPORTS_PATH report_1_3GHz
-set _OUTPUTS_PATH outputs_1_3GHz
+set _REPORTS_PATH report_1_4GHz
+set _OUTPUTS_PATH outputs_1_4GHz
 set _LOG_PATH logs_1GHz
 set_db / .init_lib_search_path {../lib}
 set_db / .init_hdl_search_path {../rtl }
@@ -41,4 +41,3 @@ report_area > $_REPORTS_PATH/generic_area.rpt
 report_hierarchy > $_REPORTS_PATH/hierarchy_gen.rpt
 set_db design_power_effort high
 check_design
-report_optimization

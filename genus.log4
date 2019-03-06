@@ -5,7 +5,7 @@ of Cadence Design Systems, Inc. in the United States and other countries.
 
 Version: 17.22-s017_1, built Sun Apr 01 2018
 Options: 
-Date:    Wed Mar 06 23:24:42 2019
+Date:    Thu Mar 07 03:23:09 2019
 Host:    compute-srv2.eda.atme.in (x86_64 w/Linux 3.10.0-1160.49.1.el7.x86_64) (8cores*64cpus*4physical cpus*Intel(R) Xeon(R) CPU E5-4650 0 @ 2.70GHz 20480KB) (528140808KB)
 OS:      CentOS Linux release 7.9.2009 (Core)
 
@@ -13,13 +13,13 @@ Checking out license: Genus_Synthesis
 
 Loading tool scripts...
 
-Finished loading tool scripts (12 seconds elapsed).
+Finished loading tool scripts (13 seconds elapsed).
 
-WARNING: This version of the tool is 339 days old.
-@genus:root: 1> set _REPORTS_PATH report_1_3GHz
-report_1_3GHz
-@genus:root: 2> set _OUTPUTS_PATH outputs_1_3GHz
-outputs_1_3GHz
+WARNING: This version of the tool is 340 days old.
+@genus:root: 1> set _REPORTS_PATH report_1_4GHz
+report_1_4GHz
+@genus:root: 2> set _OUTPUTS_PATH outputs_1_4GHz
+outputs_1_4GHz
 @genus:root: 3> set _LOG_PATH logs_1GHz
 logs_1GHz
 @genus:root: 4> set_db / .init_lib_search_path {../lib}
@@ -354,41 +354,41 @@ Info    : Sorted the set of valid implementations for synthetic operator. [CWD-3
 Info    : Elaborating Subdesign. [ELAB-2]
         : Elaborating block 'hazard_unit' from file '../rtl/hazard_unit.v'.
 Info    : An implementation was inferred. [CWD-19]
-        : The implementation 'hdl_implementation:GB/nequal_unsigned/very_fast' was inferred through the binding 'b1' for the call to synthetic operator 'NE_UNS_OP' (pin widths: A=5 B=1 Z=1) at line 49 in the file '../rtl/hazard_unit.v'.
+        : The implementation 'hdl_implementation:GB/nequal_unsigned/very_fast' was inferred through the binding 'b1' for the call to synthetic operator 'NE_UNS_OP' (pin widths: A=5 B=1 Z=1) at line 36 in the file '../rtl/hazard_unit.v'.
 Info    : Sorted the set of valid implementations for synthetic operator. [CWD-36]
-        : The implementations for the call to synthetic operator 'NE_UNS_OP' (pin widths: A=5 B=1 Z=1) at line 49 in the file '../rtl/hazard_unit.v' will be considered in the following order: {'hdl_implementation:GB/nequal_unsigned/very_fast' (priority 1)}
+        : The implementations for the call to synthetic operator 'NE_UNS_OP' (pin widths: A=5 B=1 Z=1) at line 36 in the file '../rtl/hazard_unit.v' will be considered in the following order: {'hdl_implementation:GB/nequal_unsigned/very_fast' (priority 1)}
 Info    : An implementation was inferred. [CWD-19]
-        : The implementation 'hdl_implementation:GB/equal_unsigned/very_fast' was inferred through the binding 'b1' for the call to synthetic operator 'EQ_UNS_OP' (pin widths: A=7 B=6 Z=1) at line 34 in the file '../rtl/hazard_unit.v'.
+        : The implementation 'hdl_implementation:GB/equal_unsigned/very_fast' was inferred through the binding 'b1' for the call to synthetic operator 'EQ_UNS_OP' (pin widths: A=7 B=6 Z=1) at line 24 in the file '../rtl/hazard_unit.v'.
 Info    : Sorted the set of valid implementations for synthetic operator. [CWD-36]
-        : The implementations for the call to synthetic operator 'EQ_UNS_OP' (pin widths: A=7 B=6 Z=1) at line 34 in the file '../rtl/hazard_unit.v' will be considered in the following order: {'hdl_implementation:GB/equal_unsigned/very_fast' (priority 1)}
+        : The implementations for the call to synthetic operator 'EQ_UNS_OP' (pin widths: A=7 B=6 Z=1) at line 24 in the file '../rtl/hazard_unit.v' will be considered in the following order: {'hdl_implementation:GB/equal_unsigned/very_fast' (priority 1)}
 Info    : An implementation was inferred. [CWD-19]
-        : The implementation 'hdl_implementation:GB/equal_unsigned/very_fast' was inferred through the binding 'b1' for the call to synthetic operator 'EQ_UNS_OP' (pin widths: A=7 B=5 Z=1) at line 35 in the file '../rtl/hazard_unit.v'.
+        : The implementation 'hdl_implementation:GB/equal_unsigned/very_fast' was inferred through the binding 'b1' for the call to synthetic operator 'EQ_UNS_OP' (pin widths: A=7 B=5 Z=1) at line 25 in the file '../rtl/hazard_unit.v'.
 Info    : Sorted the set of valid implementations for synthetic operator. [CWD-36]
-        : The implementations for the call to synthetic operator 'EQ_UNS_OP' (pin widths: A=7 B=5 Z=1) at line 35 in the file '../rtl/hazard_unit.v' will be considered in the following order: {'hdl_implementation:GB/equal_unsigned/very_fast' (priority 1)}
+        : The implementations for the call to synthetic operator 'EQ_UNS_OP' (pin widths: A=7 B=5 Z=1) at line 25 in the file '../rtl/hazard_unit.v' will be considered in the following order: {'hdl_implementation:GB/equal_unsigned/very_fast' (priority 1)}
 Info    : An implementation was inferred. [CWD-19]
-        : The implementation 'hdl_implementation:GB/equal_unsigned/very_fast' was inferred through the binding 'b1' for the call to synthetic operator 'EQ_UNS_OP' (pin widths: A=7 B=2 Z=1) at line 36 in the file '../rtl/hazard_unit.v'.
+        : The implementation 'hdl_implementation:GB/equal_unsigned/very_fast' was inferred through the binding 'b1' for the call to synthetic operator 'EQ_UNS_OP' (pin widths: A=7 B=2 Z=1) at line 26 in the file '../rtl/hazard_unit.v'.
 Info    : Sorted the set of valid implementations for synthetic operator. [CWD-36]
-        : The implementations for the call to synthetic operator 'EQ_UNS_OP' (pin widths: A=7 B=2 Z=1) at line 36 in the file '../rtl/hazard_unit.v' will be considered in the following order: {'hdl_implementation:GB/equal_unsigned/very_fast' (priority 1)}
+        : The implementations for the call to synthetic operator 'EQ_UNS_OP' (pin widths: A=7 B=2 Z=1) at line 26 in the file '../rtl/hazard_unit.v' will be considered in the following order: {'hdl_implementation:GB/equal_unsigned/very_fast' (priority 1)}
 Info    : An implementation was inferred. [CWD-19]
-        : The implementation 'hdl_implementation:GB/equal_unsigned/very_fast' was inferred through the binding 'b1' for the call to synthetic operator 'EQ_UNS_OP' (pin widths: A=7 B=6 Z=1) at line 37 in the file '../rtl/hazard_unit.v'.
+        : The implementation 'hdl_implementation:GB/equal_unsigned/very_fast' was inferred through the binding 'b1' for the call to synthetic operator 'EQ_UNS_OP' (pin widths: A=7 B=6 Z=1) at line 27 in the file '../rtl/hazard_unit.v'.
 Info    : Sorted the set of valid implementations for synthetic operator. [CWD-36]
-        : The implementations for the call to synthetic operator 'EQ_UNS_OP' (pin widths: A=7 B=6 Z=1) at line 37 in the file '../rtl/hazard_unit.v' will be considered in the following order: {'hdl_implementation:GB/equal_unsigned/very_fast' (priority 1)}
+        : The implementations for the call to synthetic operator 'EQ_UNS_OP' (pin widths: A=7 B=6 Z=1) at line 27 in the file '../rtl/hazard_unit.v' will be considered in the following order: {'hdl_implementation:GB/equal_unsigned/very_fast' (priority 1)}
 Info    : An implementation was inferred. [CWD-19]
-        : The implementation 'hdl_implementation:GB/equal_unsigned/very_fast' was inferred through the binding 'b1' for the call to synthetic operator 'EQ_UNS_OP' (pin widths: A=7 B=7 Z=1) at line 38 in the file '../rtl/hazard_unit.v'.
+        : The implementation 'hdl_implementation:GB/equal_unsigned/very_fast' was inferred through the binding 'b1' for the call to synthetic operator 'EQ_UNS_OP' (pin widths: A=7 B=7 Z=1) at line 28 in the file '../rtl/hazard_unit.v'.
 Info    : Sorted the set of valid implementations for synthetic operator. [CWD-36]
-        : The implementations for the call to synthetic operator 'EQ_UNS_OP' (pin widths: A=7 B=7 Z=1) at line 38 in the file '../rtl/hazard_unit.v' will be considered in the following order: {'hdl_implementation:GB/equal_unsigned/very_fast' (priority 1)}
+        : The implementations for the call to synthetic operator 'EQ_UNS_OP' (pin widths: A=7 B=7 Z=1) at line 28 in the file '../rtl/hazard_unit.v' will be considered in the following order: {'hdl_implementation:GB/equal_unsigned/very_fast' (priority 1)}
 Info    : An implementation was inferred. [CWD-19]
-        : The implementation 'hdl_implementation:GB/equal_unsigned/very_fast' was inferred through the binding 'b1' for the call to synthetic operator 'EQ_UNS_OP' (pin widths: A=7 B=7 Z=1) at line 39 in the file '../rtl/hazard_unit.v'.
+        : The implementation 'hdl_implementation:GB/equal_unsigned/very_fast' was inferred through the binding 'b1' for the call to synthetic operator 'EQ_UNS_OP' (pin widths: A=7 B=7 Z=1) at line 29 in the file '../rtl/hazard_unit.v'.
 Info    : Sorted the set of valid implementations for synthetic operator. [CWD-36]
-        : The implementations for the call to synthetic operator 'EQ_UNS_OP' (pin widths: A=7 B=7 Z=1) at line 39 in the file '../rtl/hazard_unit.v' will be considered in the following order: {'hdl_implementation:GB/equal_unsigned/very_fast' (priority 1)}
+        : The implementations for the call to synthetic operator 'EQ_UNS_OP' (pin widths: A=7 B=7 Z=1) at line 29 in the file '../rtl/hazard_unit.v' will be considered in the following order: {'hdl_implementation:GB/equal_unsigned/very_fast' (priority 1)}
 Info    : An implementation was inferred. [CWD-19]
-        : The implementation 'hdl_implementation:GB/equal_unsigned/very_fast' was inferred through the binding 'b1' for the call to synthetic operator 'EQ_UNS_OP' (pin widths: A=5 B=5 Z=1) at line 50 in the file '../rtl/hazard_unit.v'.
+        : The implementation 'hdl_implementation:GB/equal_unsigned/very_fast' was inferred through the binding 'b1' for the call to synthetic operator 'EQ_UNS_OP' (pin widths: A=5 B=5 Z=1) at line 37 in the file '../rtl/hazard_unit.v'.
 Info    : Sorted the set of valid implementations for synthetic operator. [CWD-36]
-        : The implementations for the call to synthetic operator 'EQ_UNS_OP' (pin widths: A=5 B=5 Z=1) at line 50 in the file '../rtl/hazard_unit.v' will be considered in the following order: {'hdl_implementation:GB/equal_unsigned/very_fast' (priority 1)}
+        : The implementations for the call to synthetic operator 'EQ_UNS_OP' (pin widths: A=5 B=5 Z=1) at line 37 in the file '../rtl/hazard_unit.v' will be considered in the following order: {'hdl_implementation:GB/equal_unsigned/very_fast' (priority 1)}
 Info    : An implementation was inferred. [CWD-19]
-        : The implementation 'hdl_implementation:GB/equal_unsigned/very_fast' was inferred through the binding 'b1' for the call to synthetic operator 'EQ_UNS_OP' (pin widths: A=5 B=5 Z=1) at line 51 in the file '../rtl/hazard_unit.v'.
+        : The implementation 'hdl_implementation:GB/equal_unsigned/very_fast' was inferred through the binding 'b1' for the call to synthetic operator 'EQ_UNS_OP' (pin widths: A=5 B=5 Z=1) at line 38 in the file '../rtl/hazard_unit.v'.
 Info    : Sorted the set of valid implementations for synthetic operator. [CWD-36]
-        : The implementations for the call to synthetic operator 'EQ_UNS_OP' (pin widths: A=5 B=5 Z=1) at line 51 in the file '../rtl/hazard_unit.v' will be considered in the following order: {'hdl_implementation:GB/equal_unsigned/very_fast' (priority 1)}
+        : The implementations for the call to synthetic operator 'EQ_UNS_OP' (pin widths: A=5 B=5 Z=1) at line 38 in the file '../rtl/hazard_unit.v' will be considered in the following order: {'hdl_implementation:GB/equal_unsigned/very_fast' (priority 1)}
 Info    : Elaborating Subdesign. [ELAB-2]
         : Elaborating block 'id_ex_pipe' from file '../rtl/id_ex_pipe.v'.
 Info    : Elaborating Subdesign. [ELAB-2]
@@ -550,7 +550,7 @@ Check completed for source RTL.
         Applying wireload models.
         Computing net loads.
 UM:  flow.cputime  flow.realtime  timing.setup.tns  timing.setup.wns  snapshot
-UM:            63             73                                      elaborate
+UM:            63             71                                      elaborate
 design:rv32i_core
 @genus:root: 15> 
 @genus:root: 15> read_sdc {../sdc/top_1GHz.sdc}
@@ -590,38 +590,36 @@ Total runtime 0
 1 high
 @genus:root: 17> syn_generic
 Warning : Message truncated because it exceeds the maximum length of 4096 characters. [MESG-6]
-        : Info portion of message 'GLO-34' truncated to length 4096 from 39811
+        : Info portion of message 'GLO-34' truncated to length 4096 from 39706
         : By default messages are limited to 4096 characters. All characters after the 4096 character limit are truncated. To remove this limit, set the message attribute 'truncate' to 'false'. However, this may dramatically increase the size of the log file.
 Info    : Deleting instances not driving any primary outputs. [GLO-34]
-        : Deleting 1158 hierarchical instances. 
+        : Deleting 1156 hierarchical instances. 
 Following instances are deleted as they do not drive any primary output:
 'u_ex_mem/mux_alu_result_mem_32_13', 
 'u_ex_mem/mux_mem_load_type_mem_32_13', 
 'u_ex_mem/mux_mem_store_type_mem_32_13', 
 'u_ex_mem/mux_mem_write_mem_32_13', 'u_ex_mem/mux_memtoreg_mem_32_13', 
 'u_ex_mem/mux_rd_mem_32_13', 'u_ex_mem/mux_rs2_data_mem_32_13', 
-'u_ex_mem/mux_wb_reg_file_mem_32_13', 'u_id_ex/mux_alu_ctrl_ex_71_13', 
-'u_id_ex/mux_alu_ctrl_ex_101_18', 'u_id_ex/mux_branch_ex_71_13', 
-'u_id_ex/mux_branch_ex_101_18', 'u_id_ex/mux_ex_alu_src_ex_71_13', 
-'u_id_ex/mux_ex_alu_src_ex_101_18', 'u_id_ex/mux_func3_ex_71_13', 
-'u_id_ex/mux_func3_ex_101_18', 'u_id_ex/mux_imm_ex_71_13', 
-'u_id_ex/mux_imm_ex_101_18', 'u_id_ex/mux_is_load_ex_71_13', 
-'u_id_ex/mux_is_load_ex_101_18', 'u_id_ex/mux_jal_ex_71_13', 
-'u_id_ex/mux_jal_ex_101_18', 'u_id_ex/mux_jalr_ex_71_13', 
-'u_id_ex/mux_jalr_ex_101_18', 'u_id_ex/mux_mem_load_type_ex_71_13', 
-'u_id_ex/mux_mem_load_type_ex_101_18', 
-'u_id_ex/mux_mem_store_type_ex_71_13', 
-'u_id_ex/mux_mem_store_type_ex_101_18', 'u_id_ex/mux_mem_write_ex_71_13', 
-'u_id_ex/mux_mem_write_ex_101_18', 'u_id_ex/mux_memtoreg_ex_71_13', 
-'u_id_ex/mux_memtoreg_ex_101_18', 'u_id_ex/mux_pc_ex_71_13', 
-'u_id_ex/mux_pc_ex_101_18', 'u_id_ex/mux_predictedTaken_ex_71_13', 
-'u_id_ex/mux_predictedTaken_ex_101_18', 'u_id_ex/mux_rd_ex_71_13', 
-'u_id_ex/mux_rd_ex_101_18', 'u_id_ex/mux_rs1_data_ex_71_13', 
-'u_id_ex/mux_rs1_data_ex_101_18', 'u_id_ex/mux_rs1_ex_71_13', 
-'u_id_ex/mux_rs1_ex_101_18', 'u_id_ex/mux_rs2_data_ex_71_13', 
-'u_id_ex/mux_rs2_data_ex_101_18', 'u_id_ex/mux_rs2_ex_71_13', 
-'u_id_ex/mux_rs2_ex_101_18', 'u_id_ex/mux_wb_reg_file_ex_71_13', 
-'u_id_ex/mux_wb_reg_file_ex_101_18', 'u_if/u_btb/U_FILE/mux_lru[0]_65_13', 
+'u_ex_mem/mux_wb_reg_file_mem_32_13', 'u_id_ex/mux_alu_ctrl_ex_49_5', 
+'u_id_ex/mux_alu_ctrl_ex_70_10', 'u_id_ex/mux_branch_ex_49_5', 
+'u_id_ex/mux_branch_ex_70_10', 'u_id_ex/mux_ex_alu_src_ex_49_5', 
+'u_id_ex/mux_ex_alu_src_ex_70_10', 'u_id_ex/mux_func3_ex_49_5', 
+'u_id_ex/mux_func3_ex_70_10', 'u_id_ex/mux_imm_ex_49_5', 
+'u_id_ex/mux_imm_ex_70_10', 'u_id_ex/mux_jal_ex_49_5', 
+'u_id_ex/mux_jal_ex_70_10', 'u_id_ex/mux_jalr_ex_49_5', 
+'u_id_ex/mux_jalr_ex_70_10', 'u_id_ex/mux_mem_load_type_ex_49_5', 
+'u_id_ex/mux_mem_load_type_ex_70_10', 'u_id_ex/mux_mem_store_type_ex_49_5', 
+'u_id_ex/mux_mem_store_type_ex_70_10', 'u_id_ex/mux_mem_write_ex_49_5', 
+'u_id_ex/mux_mem_write_ex_70_10', 'u_id_ex/mux_memtoreg_ex_49_5', 
+'u_id_ex/mux_memtoreg_ex_70_10', 'u_id_ex/mux_pc_ex_49_5', 
+'u_id_ex/mux_pc_ex_70_10', 'u_id_ex/mux_predictedTaken_ex_49_5', 
+'u_id_ex/mux_predictedTaken_ex_70_10', 'u_id_ex/mux_rd_ex_49_5', 
+'u_id_ex/mux_rd_ex_70_10', 'u_id_ex/mux_rs1_data_ex_49_5', 
+'u_id_ex/mux_rs1_data_ex_70_10', 'u_id_ex/mux_rs1_ex_49_5', 
+'u_id_ex/mux_rs1_ex_70_10', 'u_id_ex/mux_rs2_data_ex_49_5', 
+'u_id_ex/mux_rs2_data_ex_70_10', 'u_id_ex/mux_rs2_ex_49_5', 
+'u_id_ex/mux_rs2_ex_70_10', 'u_id_ex/mux_wb_reg_file_ex_49_5', 
+'u_id_ex/mux_wb_reg_file_ex_70_10', 'u_if/u_btb/U_FILE/mux_lru[0]_65_13', 
 'u_if/u_btb/U_FILE/mux_lru[1]_65_13', 'u_if/u_btb/U_FILE/mux_lru[2]_65_13', 
 'u_if/u_btb/U_FILE/mux_lru[3]_65_13', 'u_if/u_btb/U_FILE/mux_lru[4]_65_13', 
 'u_if/u_btb/U_FILE/mux_lru[5]_65_13', 'u_if/u_btb/U_FILE/mux_lru[6]_65_13', 
@@ -669,14 +667,15 @@ Following instances are deleted as they do not drive any primary output:
 'u_if/u_btb/U_FILE/mux_target_arr[4][0]_65_13', 
 'u_if/u_btb/U_FILE/mux_target_arr[4][1]_65_13', 
 'u_if/u_btb/U_FILE/mux_target_arr[5][0]_65_13', 
-'u_if/u_btb/
+'u_if/u_btb/U_FILE/mux_target_arr[5][1]_65_13', 
+'u_if/u_btb/U_FILE/mux_target_arr[6][0]_65_13', 
+'u_if/u_btb/U_FILE/
         : Optimizations such as constant propagation or redundancy removal could change the connections so a hierarchical instance does not drive any primary outputs anymore. To see the list of deleted hierarchical instances, set the 'information_level' attribute to 2 or above. If the message is truncated set the message attribute 'truncate' to false to see the complete list. To prevent this optimization, set the 'delete_unloaded_insts' root/subdesign attribute to 'false' or 'preserve' instance attribute to 'true'.
 Info    : Deleting instances not driving any primary outputs. [GLO-34]
-        : Deleting 6 hierarchical instances. 
+        : Deleting 5 hierarchical instances. 
 Following instances are deleted as they do not drive any primary output:
 'u_decode/u_ctrl/mux_38_40', 'u_decode/u_ctrl/mux_57_40', 
-'u_hazard/mux_if_id_en_79_18', 'u_hazard/mux_pc_en_79_18', 
-'u_if/u_btb/U_WRITE/mux_wr_lru_en_232_13', 
+'u_hazard/mux_pc_en_51_22', 'u_if/u_btb/U_WRITE/mux_wr_lru_en_232_13', 
 'u_if/u_btb/U_WRITE/mux_wr_valid_232_13'.
 Info    : Synthesizing. [SYNTH-1]
         : Synthesizing 'rv32i_core' to generic gates using 'high' effort.
@@ -686,7 +685,7 @@ stamp 'PBS_Generic-Start' being created for table 'pbs_debug'
 
   Total Time (Wall) |  Stage Time (Wall)  |   % (Wall)   |    Date - Time     |  Memory   | Stage
 --------------------+---------------------+--------------+--------------------+-----------+----------------------
- 00:01:12(00:01:13) |  00:00:00(00:00:00) |   0.0(  0.0) |   23:26:04 (Mar06) |  619.9 MB | PBS_Generic-Start
+ 00:01:12(00:01:12) |  00:00:00(00:00:00) |   0.0(  0.0) |    3:24:29 (Mar07) |  625.0 MB | PBS_Generic-Start
 --------------------+---------------------+--------------+--------------------+-----------+----------------------
 Number of threads: 8 * 1   (id: pbs_debug, time_info v1.57)
 Info: (*N*) indicates data that was populated from previously saved time_info database
@@ -797,22 +796,15 @@ Following instances are deleted as they do not drive any primary output:
 'u_decode/u_regfile/reg_file_reg[0][31]'.
         : Optimizations such as constant propagation or redundancy removal could change the connections so an instance does not drive any primary outputs anymore. To see the list of deleted sequential, set the 'information_level' attribute to 2 or above. If the message is truncated set the message attribute 'truncate' to false to see the complete list.
 Info    : Deleting instances not driving any primary outputs. [GLO-34]
-        : Deleting 2 hierarchical instances. 
-Following instances are deleted as they do not drive any primary output:
-'u_hazard/mux_if_id_en_70_13', 'u_hazard/mux_pc_en_70_13'.
-Info    : Equivalent sequential instances have been merged. [GLO-42]
-        : Instances 'is_load_ex_reg' and 'memtoreg_ex_reg' in 'id_ex_pipe' have been merged.
-        : To prevent merging of sequential instances, set the 'optimize_merge_flops' and 'optimize_merge_latches' root attributes to 'false' or the 'optimize_merge_seq' instance attribute to 'false'.
-Info    : Deleting sequential instances not driving any primary outputs. [GLO-32]
-        : Deleting 1 sequential instance. 
+        : Deleting 1 hierarchical instance. 
 Following instance is deleted as they do not drive any primary output:
-'u_id_ex/memtoreg_ex_reg'.
+'u_hazard/mux_pc_en_46_13'.
 Info    : Pre-processed datapath logic. [DPOPT-6]
         : No pre-processing optimizations applied to datapath logic in 'rv32i_core'.
 Info    : Optimizing datapath logic. [DPOPT-1]
         : Optimizing datapath logic in 'rv32i_core'.
 Info    : Implementing datapath configurations. [DPOPT-3]
-        : Implementing datapath configurations for 'CDN_DP_region_31040'
+        : Implementing datapath configurations for 'CDN_DP_region_31039'
 Info    : An implementation was inferred. [CWD-19]
         : The implementation 'hdl_implementation:GB/increment_unsigned/very_fast' was inferred through the binding 'b1' for the call to synthetic operator 'INCREMENT_UNS_CI_OP' (pin widths: A=10 CI=1 Z=10).
 Info    : Sorted the set of valid implementations for synthetic operator. [CWD-36]
@@ -831,109 +823,13 @@ Info    : An implementation was inferred. [CWD-19]
 Info    : Sorted the set of valid implementations for synthetic operator. [CWD-36]
         : The implementations for the call to synthetic operator 'INCREMENT_UNS_CI_OP' (pin widths: A=10 CI=1 Z=10) will be considered in the following order: {'hdl_implementation:GB/increment_unsigned/very_fast' (priority 1), 'hdl_implementation:GB/increment_unsigned/medium' (priority 1), 'hdl_implementation:GB/increment_unsigned/slow' (priority 1)}
 Info    : Done implementing datapath configurations. [DPOPT-4]
-        : Selected 'very_fast' configuration 4 for module 'CDN_DP_region_31040'.
+        : Selected 'very_fast' configuration 4 for module 'CDN_DP_region_31039'.
           Optimizations applied to 'very_fast' configuration:
             rewriting(0), factoring(0), sharing(0), cmultcse(0), downsizing(0), speculation(0)
 Info    : Implementing datapath configurations. [DPOPT-3]
-        : Implementing datapath configurations for 'CDN_DP_region_31047'
+        : Implementing datapath configurations for 'CDN_DP_region_31046'
 Info    : Done implementing datapath configurations. [DPOPT-4]
-        : Selected 'very_fast' configuration 4 for module 'CDN_DP_region_31047'.
-          Optimizations applied to 'very_fast' configuration:
-            rewriting(0), factoring(0), sharing(0), cmultcse(0), downsizing(0), speculation(0)
-Info    : Implementing datapath configurations. [DPOPT-3]
-        : Implementing datapath configurations for 'CDN_DP_region_31036'
-Info    : Done implementing datapath configurations. [DPOPT-4]
-        : Selected 'very_fast' configuration 4 for module 'CDN_DP_region_31036'.
-          Optimizations applied to 'very_fast' configuration:
-            rewriting(0), factoring(0), sharing(0), cmultcse(0), downsizing(0), speculation(0)
-Info    : Implementing datapath configurations. [DPOPT-3]
-        : Implementing datapath configurations for 'CDN_DP_region_31041'
-Info    : Done implementing datapath configurations. [DPOPT-4]
-        : Selected 'very_fast' configuration 4 for module 'CDN_DP_region_31041'.
-          Optimizations applied to 'very_fast' configuration:
-            rewriting(0), factoring(0), sharing(0), cmultcse(0), downsizing(0), speculation(0)
-Info    : Implementing datapath configurations. [DPOPT-3]
-        : Implementing datapath configurations for 'CDN_DP_region_31038'
-Info    : Done implementing datapath configurations. [DPOPT-4]
-        : Selected 'very_fast' configuration 4 for module 'CDN_DP_region_31038'.
-          Optimizations applied to 'very_fast' configuration:
-            rewriting(0), factoring(0), sharing(0), cmultcse(0), downsizing(0), speculation(0)
-Info    : Implementing datapath configurations. [DPOPT-3]
-        : Implementing datapath configurations for 'CDN_DP_region_31034'
-Info    : An implementation was inferred. [CWD-19]
-        : The implementation 'hdl_implementation:GB/add_unsigned/very_fast' was inferred through the binding 'b1' for the call to synthetic operator 'ADD_UNS_OP' (pin widths: A=32 B=32 Z=32).
-Info    : Sorted the set of valid implementations for synthetic operator. [CWD-36]
-        : The implementations for the call to synthetic operator 'ADD_UNS_OP' (pin widths: A=32 B=32 Z=32) will be considered in the following order: {'hdl_implementation:GB/add_unsigned/very_fast' (priority 1), 'hdl_implementation:GB/add_unsigned/medium' (priority 1), 'hdl_implementation:GB/add_unsigned/slow' (priority 1)}
-Info    : Accepted resource sharing opportunity. [RTLOPT-30]
-        : Merged the following sets of instances in 'CDN_DP_region_31034_c1 in branch_jump_unit':
-	  (add_83_52, add_82_43)
-
-Info    : An implementation was inferred. [CWD-19]
-        : The implementation 'hdl_implementation:GB/add_unsigned/very_fast' was inferred through the binding 'b1' for the call to synthetic operator 'ADD_UNS_OP' (pin widths: A=32 B=32 Z=32).
-Info    : Sorted the set of valid implementations for synthetic operator. [CWD-36]
-        : The implementations for the call to synthetic operator 'ADD_UNS_OP' (pin widths: A=32 B=32 Z=32) will be considered in the following order: {'hdl_implementation:GB/add_unsigned/very_fast' (priority 1), 'hdl_implementation:GB/add_unsigned/medium' (priority 1), 'hdl_implementation:GB/add_unsigned/slow' (priority 1)}
-Info    : An implementation was inferred. [CWD-19]
-        : The implementation 'hdl_implementation:GB/add_unsigned/very_fast' was inferred through the binding 'b1' for the call to synthetic operator 'ADD_UNS_OP' (pin widths: A=32 B=32 Z=32).
-Info    : Sorted the set of valid implementations for synthetic operator. [CWD-36]
-        : The implementations for the call to synthetic operator 'ADD_UNS_OP' (pin widths: A=32 B=32 Z=32) will be considered in the following order: {'hdl_implementation:GB/add_unsigned/very_fast' (priority 1), 'hdl_implementation:GB/add_unsigned/medium' (priority 1), 'hdl_implementation:GB/add_unsigned/slow' (priority 1)}
-Info    : Accepted resource sharing opportunity. [RTLOPT-30]
-        : Merged the following sets of instances in 'CDN_DP_region_31034_c2 in branch_jump_unit':
-	  (add_83_52, add_82_43)
-
-Info    : An implementation was inferred. [CWD-19]
-        : The implementation 'hdl_implementation:GB/add_unsigned/very_fast' was inferred through the binding 'b1' for the call to synthetic operator 'ADD_UNS_OP' (pin widths: A=32 B=32 Z=32).
-Info    : Sorted the set of valid implementations for synthetic operator. [CWD-36]
-        : The implementations for the call to synthetic operator 'ADD_UNS_OP' (pin widths: A=32 B=32 Z=32) will be considered in the following order: {'hdl_implementation:GB/add_unsigned/very_fast' (priority 1), 'hdl_implementation:GB/add_unsigned/medium' (priority 1), 'hdl_implementation:GB/add_unsigned/slow' (priority 1)}
-Info    : An implementation was inferred. [CWD-19]
-        : The implementation 'hdl_implementation:GB/add_unsigned/very_fast' was inferred through the binding 'b1' for the call to synthetic operator 'ADD_UNS_OP' (pin widths: A=32 B=32 Z=32).
-Info    : Sorted the set of valid implementations for synthetic operator. [CWD-36]
-        : The implementations for the call to synthetic operator 'ADD_UNS_OP' (pin widths: A=32 B=32 Z=32) will be considered in the following order: {'hdl_implementation:GB/add_unsigned/very_fast' (priority 1), 'hdl_implementation:GB/add_unsigned/medium' (priority 1), 'hdl_implementation:GB/add_unsigned/slow' (priority 1)}
-Info    : Accepted resource sharing opportunity. [RTLOPT-30]
-        : Merged the following sets of instances in 'CDN_DP_region_31034_c3 in branch_jump_unit':
-	  (add_83_52, add_82_43)
-
-Info    : An implementation was inferred. [CWD-19]
-        : The implementation 'hdl_implementation:GB/add_unsigned/very_fast' was inferred through the binding 'b1' for the call to synthetic operator 'ADD_UNS_OP' (pin widths: A=32 B=32 Z=32).
-Info    : Sorted the set of valid implementations for synthetic operator. [CWD-36]
-        : The implementations for the call to synthetic operator 'ADD_UNS_OP' (pin widths: A=32 B=32 Z=32) will be considered in the following order: {'hdl_implementation:GB/add_unsigned/very_fast' (priority 1), 'hdl_implementation:GB/add_unsigned/medium' (priority 1), 'hdl_implementation:GB/add_unsigned/slow' (priority 1)}
-Info    : An implementation was inferred. [CWD-19]
-        : The implementation 'hdl_implementation:GB/add_unsigned/very_fast' was inferred through the binding 'b1' for the call to synthetic operator 'ADD_UNS_OP' (pin widths: A=32 B=32 Z=32).
-Info    : Sorted the set of valid implementations for synthetic operator. [CWD-36]
-        : The implementations for the call to synthetic operator 'ADD_UNS_OP' (pin widths: A=32 B=32 Z=32) will be considered in the following order: {'hdl_implementation:GB/add_unsigned/very_fast' (priority 1), 'hdl_implementation:GB/add_unsigned/medium' (priority 1), 'hdl_implementation:GB/add_unsigned/slow' (priority 1)}
-Info    : Accepted resource sharing opportunity. [RTLOPT-30]
-        : Merged the following sets of instances in 'CDN_DP_region_31034_c4 in branch_jump_unit':
-	  (add_83_52, add_82_43)
-
-Info    : An implementation was inferred. [CWD-19]
-        : The implementation 'hdl_implementation:GB/add_unsigned/very_fast' was inferred through the binding 'b1' for the call to synthetic operator 'ADD_UNS_OP' (pin widths: A=32 B=32 Z=32).
-Info    : Sorted the set of valid implementations for synthetic operator. [CWD-36]
-        : The implementations for the call to synthetic operator 'ADD_UNS_OP' (pin widths: A=32 B=32 Z=32) will be considered in the following order: {'hdl_implementation:GB/add_unsigned/very_fast' (priority 1), 'hdl_implementation:GB/add_unsigned/medium' (priority 1), 'hdl_implementation:GB/add_unsigned/slow' (priority 1)}
-Info    : Done implementing datapath configurations. [DPOPT-4]
-        : Selected 'very_fast' configuration 4 for module 'CDN_DP_region_31034'.
-          Optimizations applied to 'very_fast' configuration:
-            rewriting(0), factoring(0), sharing(1), cmultcse(0), downsizing(0), speculation(0)
-Info    : Implementing datapath configurations. [DPOPT-3]
-        : Implementing datapath configurations for 'CDN_DP_region'
-Info    : Done implementing datapath configurations. [DPOPT-4]
-        : Selected 'very_fast' configuration 4 for module 'CDN_DP_region'.
-          Optimizations applied to 'very_fast' configuration:
-            rewriting(0), factoring(0), sharing(0), cmultcse(0), downsizing(0), speculation(0)
-Info    : Implementing datapath configurations. [DPOPT-3]
-        : Implementing datapath configurations for 'CDN_DP_region_31042'
-Info    : Done implementing datapath configurations. [DPOPT-4]
-        : Selected 'very_fast' configuration 4 for module 'CDN_DP_region_31042'.
-          Optimizations applied to 'very_fast' configuration:
-            rewriting(0), factoring(0), sharing(0), cmultcse(0), downsizing(0), speculation(0)
-Info    : Implementing datapath configurations. [DPOPT-3]
-        : Implementing datapath configurations for 'CDN_DP_region_31043'
-Info    : Done implementing datapath configurations. [DPOPT-4]
-        : Selected 'very_fast' configuration 4 for module 'CDN_DP_region_31043'.
-          Optimizations applied to 'very_fast' configuration:
-            rewriting(0), factoring(0), sharing(0), cmultcse(0), downsizing(0), speculation(0)
-Info    : Implementing datapath configurations. [DPOPT-3]
-        : Implementing datapath configurations for 'CDN_DP_region_31049'
-Info    : Done implementing datapath configurations. [DPOPT-4]
-        : Selected 'very_fast' configuration 4 for module 'CDN_DP_region_31049'.
+        : Selected 'very_fast' configuration 4 for module 'CDN_DP_region_31046'.
           Optimizations applied to 'very_fast' configuration:
             rewriting(0), factoring(0), sharing(0), cmultcse(0), downsizing(0), speculation(0)
 Info    : Implementing datapath configurations. [DPOPT-3]
@@ -943,9 +839,99 @@ Info    : Done implementing datapath configurations. [DPOPT-4]
           Optimizations applied to 'very_fast' configuration:
             rewriting(0), factoring(0), sharing(0), cmultcse(0), downsizing(0), speculation(0)
 Info    : Implementing datapath configurations. [DPOPT-3]
-        : Implementing datapath configurations for 'CDN_DP_region_31045'
+        : Implementing datapath configurations for 'CDN_DP_region_31040'
 Info    : Done implementing datapath configurations. [DPOPT-4]
-        : Selected 'very_fast' configuration 4 for module 'CDN_DP_region_31045'.
+        : Selected 'very_fast' configuration 4 for module 'CDN_DP_region_31040'.
+          Optimizations applied to 'very_fast' configuration:
+            rewriting(0), factoring(0), sharing(0), cmultcse(0), downsizing(0), speculation(0)
+Info    : Implementing datapath configurations. [DPOPT-3]
+        : Implementing datapath configurations for 'CDN_DP_region_31037'
+Info    : Done implementing datapath configurations. [DPOPT-4]
+        : Selected 'very_fast' configuration 4 for module 'CDN_DP_region_31037'.
+          Optimizations applied to 'very_fast' configuration:
+            rewriting(0), factoring(0), sharing(0), cmultcse(0), downsizing(0), speculation(0)
+Info    : Implementing datapath configurations. [DPOPT-3]
+        : Implementing datapath configurations for 'CDN_DP_region_31033'
+Info    : An implementation was inferred. [CWD-19]
+        : The implementation 'hdl_implementation:GB/add_unsigned/very_fast' was inferred through the binding 'b1' for the call to synthetic operator 'ADD_UNS_OP' (pin widths: A=32 B=32 Z=32).
+Info    : Sorted the set of valid implementations for synthetic operator. [CWD-36]
+        : The implementations for the call to synthetic operator 'ADD_UNS_OP' (pin widths: A=32 B=32 Z=32) will be considered in the following order: {'hdl_implementation:GB/add_unsigned/very_fast' (priority 1), 'hdl_implementation:GB/add_unsigned/medium' (priority 1), 'hdl_implementation:GB/add_unsigned/slow' (priority 1)}
+Info    : Accepted resource sharing opportunity. [RTLOPT-30]
+        : Merged the following sets of instances in 'CDN_DP_region_31033_c1 in branch_jump_unit':
+	  (add_83_52, add_82_43)
+
+Info    : An implementation was inferred. [CWD-19]
+        : The implementation 'hdl_implementation:GB/add_unsigned/very_fast' was inferred through the binding 'b1' for the call to synthetic operator 'ADD_UNS_OP' (pin widths: A=32 B=32 Z=32).
+Info    : Sorted the set of valid implementations for synthetic operator. [CWD-36]
+        : The implementations for the call to synthetic operator 'ADD_UNS_OP' (pin widths: A=32 B=32 Z=32) will be considered in the following order: {'hdl_implementation:GB/add_unsigned/very_fast' (priority 1), 'hdl_implementation:GB/add_unsigned/medium' (priority 1), 'hdl_implementation:GB/add_unsigned/slow' (priority 1)}
+Info    : An implementation was inferred. [CWD-19]
+        : The implementation 'hdl_implementation:GB/add_unsigned/very_fast' was inferred through the binding 'b1' for the call to synthetic operator 'ADD_UNS_OP' (pin widths: A=32 B=32 Z=32).
+Info    : Sorted the set of valid implementations for synthetic operator. [CWD-36]
+        : The implementations for the call to synthetic operator 'ADD_UNS_OP' (pin widths: A=32 B=32 Z=32) will be considered in the following order: {'hdl_implementation:GB/add_unsigned/very_fast' (priority 1), 'hdl_implementation:GB/add_unsigned/medium' (priority 1), 'hdl_implementation:GB/add_unsigned/slow' (priority 1)}
+Info    : Accepted resource sharing opportunity. [RTLOPT-30]
+        : Merged the following sets of instances in 'CDN_DP_region_31033_c2 in branch_jump_unit':
+	  (add_83_52, add_82_43)
+
+Info    : An implementation was inferred. [CWD-19]
+        : The implementation 'hdl_implementation:GB/add_unsigned/very_fast' was inferred through the binding 'b1' for the call to synthetic operator 'ADD_UNS_OP' (pin widths: A=32 B=32 Z=32).
+Info    : Sorted the set of valid implementations for synthetic operator. [CWD-36]
+        : The implementations for the call to synthetic operator 'ADD_UNS_OP' (pin widths: A=32 B=32 Z=32) will be considered in the following order: {'hdl_implementation:GB/add_unsigned/very_fast' (priority 1), 'hdl_implementation:GB/add_unsigned/medium' (priority 1), 'hdl_implementation:GB/add_unsigned/slow' (priority 1)}
+Info    : An implementation was inferred. [CWD-19]
+        : The implementation 'hdl_implementation:GB/add_unsigned/very_fast' was inferred through the binding 'b1' for the call to synthetic operator 'ADD_UNS_OP' (pin widths: A=32 B=32 Z=32).
+Info    : Sorted the set of valid implementations for synthetic operator. [CWD-36]
+        : The implementations for the call to synthetic operator 'ADD_UNS_OP' (pin widths: A=32 B=32 Z=32) will be considered in the following order: {'hdl_implementation:GB/add_unsigned/very_fast' (priority 1), 'hdl_implementation:GB/add_unsigned/medium' (priority 1), 'hdl_implementation:GB/add_unsigned/slow' (priority 1)}
+Info    : Accepted resource sharing opportunity. [RTLOPT-30]
+        : Merged the following sets of instances in 'CDN_DP_region_31033_c3 in branch_jump_unit':
+	  (add_83_52, add_82_43)
+
+Info    : An implementation was inferred. [CWD-19]
+        : The implementation 'hdl_implementation:GB/add_unsigned/very_fast' was inferred through the binding 'b1' for the call to synthetic operator 'ADD_UNS_OP' (pin widths: A=32 B=32 Z=32).
+Info    : Sorted the set of valid implementations for synthetic operator. [CWD-36]
+        : The implementations for the call to synthetic operator 'ADD_UNS_OP' (pin widths: A=32 B=32 Z=32) will be considered in the following order: {'hdl_implementation:GB/add_unsigned/very_fast' (priority 1), 'hdl_implementation:GB/add_unsigned/medium' (priority 1), 'hdl_implementation:GB/add_unsigned/slow' (priority 1)}
+Info    : An implementation was inferred. [CWD-19]
+        : The implementation 'hdl_implementation:GB/add_unsigned/very_fast' was inferred through the binding 'b1' for the call to synthetic operator 'ADD_UNS_OP' (pin widths: A=32 B=32 Z=32).
+Info    : Sorted the set of valid implementations for synthetic operator. [CWD-36]
+        : The implementations for the call to synthetic operator 'ADD_UNS_OP' (pin widths: A=32 B=32 Z=32) will be considered in the following order: {'hdl_implementation:GB/add_unsigned/very_fast' (priority 1), 'hdl_implementation:GB/add_unsigned/medium' (priority 1), 'hdl_implementation:GB/add_unsigned/slow' (priority 1)}
+Info    : Accepted resource sharing opportunity. [RTLOPT-30]
+        : Merged the following sets of instances in 'CDN_DP_region_31033_c4 in branch_jump_unit':
+	  (add_83_52, add_82_43)
+
+Info    : An implementation was inferred. [CWD-19]
+        : The implementation 'hdl_implementation:GB/add_unsigned/very_fast' was inferred through the binding 'b1' for the call to synthetic operator 'ADD_UNS_OP' (pin widths: A=32 B=32 Z=32).
+Info    : Sorted the set of valid implementations for synthetic operator. [CWD-36]
+        : The implementations for the call to synthetic operator 'ADD_UNS_OP' (pin widths: A=32 B=32 Z=32) will be considered in the following order: {'hdl_implementation:GB/add_unsigned/very_fast' (priority 1), 'hdl_implementation:GB/add_unsigned/medium' (priority 1), 'hdl_implementation:GB/add_unsigned/slow' (priority 1)}
+Info    : Done implementing datapath configurations. [DPOPT-4]
+        : Selected 'very_fast' configuration 4 for module 'CDN_DP_region_31033'.
+          Optimizations applied to 'very_fast' configuration:
+            rewriting(0), factoring(0), sharing(1), cmultcse(0), downsizing(0), speculation(0)
+Info    : Implementing datapath configurations. [DPOPT-3]
+        : Implementing datapath configurations for 'CDN_DP_region'
+Info    : Done implementing datapath configurations. [DPOPT-4]
+        : Selected 'very_fast' configuration 4 for module 'CDN_DP_region'.
+          Optimizations applied to 'very_fast' configuration:
+            rewriting(0), factoring(0), sharing(0), cmultcse(0), downsizing(0), speculation(0)
+Info    : Implementing datapath configurations. [DPOPT-3]
+        : Implementing datapath configurations for 'CDN_DP_region_31041'
+Info    : Done implementing datapath configurations. [DPOPT-4]
+        : Selected 'very_fast' configuration 4 for module 'CDN_DP_region_31041'.
+          Optimizations applied to 'very_fast' configuration:
+            rewriting(0), factoring(0), sharing(0), cmultcse(0), downsizing(0), speculation(0)
+Info    : Implementing datapath configurations. [DPOPT-3]
+        : Implementing datapath configurations for 'CDN_DP_region_31042'
+Info    : Done implementing datapath configurations. [DPOPT-4]
+        : Selected 'very_fast' configuration 4 for module 'CDN_DP_region_31042'.
+          Optimizations applied to 'very_fast' configuration:
+            rewriting(0), factoring(0), sharing(0), cmultcse(0), downsizing(0), speculation(0)
+Info    : Implementing datapath configurations. [DPOPT-3]
+        : Implementing datapath configurations for 'CDN_DP_region_31048'
+Info    : Done implementing datapath configurations. [DPOPT-4]
+        : Selected 'very_fast' configuration 4 for module 'CDN_DP_region_31048'.
+          Optimizations applied to 'very_fast' configuration:
+            rewriting(0), factoring(0), sharing(0), cmultcse(0), downsizing(0), speculation(0)
+Info    : Implementing datapath configurations. [DPOPT-3]
+        : Implementing datapath configurations for 'CDN_DP_region_31034'
+Info    : Done implementing datapath configurations. [DPOPT-4]
+        : Selected 'very_fast' configuration 4 for module 'CDN_DP_region_31034'.
           Optimizations applied to 'very_fast' configuration:
             rewriting(0), factoring(0), sharing(0), cmultcse(0), downsizing(0), speculation(0)
 Info    : Implementing datapath configurations. [DPOPT-3]
@@ -955,7 +941,13 @@ Info    : Done implementing datapath configurations. [DPOPT-4]
           Optimizations applied to 'very_fast' configuration:
             rewriting(0), factoring(0), sharing(0), cmultcse(0), downsizing(0), speculation(0)
 Info    : Implementing datapath configurations. [DPOPT-3]
-        : Implementing datapath configurations for 'CDN_DP_region_31048'
+        : Implementing datapath configurations for 'CDN_DP_region_31043'
+Info    : Done implementing datapath configurations. [DPOPT-4]
+        : Selected 'very_fast' configuration 4 for module 'CDN_DP_region_31043'.
+          Optimizations applied to 'very_fast' configuration:
+            rewriting(0), factoring(0), sharing(0), cmultcse(0), downsizing(0), speculation(0)
+Info    : Implementing datapath configurations. [DPOPT-3]
+        : Implementing datapath configurations for 'CDN_DP_region_31047'
 Info    : Skipping an invalid binding for a subprogram call. [CWD-21]
         : The binding 'hdl_bind:GB/decoder/b2' is invalid for the call to synthetic operator 'SLL_VLOG_UNS_OP' (pin widths: A=32 SH=5 Z=32) because the constraint '1' on the synthetic operator pin 'A' does not match the actual pin value 'bound'.
 Info    : An implementation was inferred. [CWD-19]
@@ -963,7 +955,7 @@ Info    : An implementation was inferred. [CWD-19]
 Info    : Sorted the set of valid implementations for synthetic operator. [CWD-36]
         : The implementations for the call to synthetic operator 'SLL_VLOG_UNS_OP' (pin widths: A=32 SH=5 Z=32) will be considered in the following order: {'hdl_implementation:GB/sll/very_fast' (priority 1), 'hdl_implementation:GB/sll/slow' (priority 1)}
 Info    : Accepted resource sharing opportunity. [RTLOPT-30]
-        : Merged the following sets of instances in 'CDN_DP_region_31048_c1 in shift_unit32':
+        : Merged the following sets of instances in 'CDN_DP_region_31047_c1 in shift_unit32':
 	  (sll_91_51, sll_83_36)
 
 Info    : An implementation was inferred. [CWD-19]
@@ -975,7 +967,7 @@ Info    : An implementation was inferred. [CWD-19]
 Info    : Sorted the set of valid implementations for synthetic operator. [CWD-36]
         : The implementations for the call to synthetic operator 'SLL_VLOG_UNS_OP' (pin widths: A=32 SH=5 Z=32) will be considered in the following order: {'hdl_implementation:GB/sll/very_fast' (priority 1), 'hdl_implementation:GB/sll/slow' (priority 1)}
 Info    : Accepted resource sharing opportunity. [RTLOPT-30]
-        : Merged the following sets of instances in 'CDN_DP_region_31048_c2 in shift_unit32':
+        : Merged the following sets of instances in 'CDN_DP_region_31047_c2 in shift_unit32':
 	  (sll_91_51, sll_83_36)
 
 Info    : An implementation was inferred. [CWD-19]
@@ -987,7 +979,7 @@ Info    : An implementation was inferred. [CWD-19]
 Info    : Sorted the set of valid implementations for synthetic operator. [CWD-36]
         : The implementations for the call to synthetic operator 'SLL_VLOG_UNS_OP' (pin widths: A=32 SH=5 Z=32) will be considered in the following order: {'hdl_implementation:GB/sll/very_fast' (priority 1), 'hdl_implementation:GB/sll/slow' (priority 1)}
 Info    : Accepted resource sharing opportunity. [RTLOPT-30]
-        : Merged the following sets of instances in 'CDN_DP_region_31048_c3 in shift_unit32':
+        : Merged the following sets of instances in 'CDN_DP_region_31047_c3 in shift_unit32':
 	  (sll_91_51, sll_83_36)
 
 Info    : An implementation was inferred. [CWD-19]
@@ -999,7 +991,7 @@ Info    : An implementation was inferred. [CWD-19]
 Info    : Sorted the set of valid implementations for synthetic operator. [CWD-36]
         : The implementations for the call to synthetic operator 'SLL_VLOG_UNS_OP' (pin widths: A=32 SH=5 Z=32) will be considered in the following order: {'hdl_implementation:GB/sll/very_fast' (priority 1), 'hdl_implementation:GB/sll/slow' (priority 1)}
 Info    : Accepted resource sharing opportunity. [RTLOPT-30]
-        : Merged the following sets of instances in 'CDN_DP_region_31048_c4 in shift_unit32':
+        : Merged the following sets of instances in 'CDN_DP_region_31047_c4 in shift_unit32':
 	  (sll_91_51, sll_83_36)
 
 Info    : An implementation was inferred. [CWD-19]
@@ -1007,17 +999,17 @@ Info    : An implementation was inferred. [CWD-19]
 Info    : Sorted the set of valid implementations for synthetic operator. [CWD-36]
         : The implementations for the call to synthetic operator 'SLL_VLOG_UNS_OP' (pin widths: A=32 SH=5 Z=32) will be considered in the following order: {'hdl_implementation:GB/sll/very_fast' (priority 1), 'hdl_implementation:GB/sll/slow' (priority 1)}
 Info    : Done implementing datapath configurations. [DPOPT-4]
-        : Selected 'very_fast' configuration 4 for module 'CDN_DP_region_31048'.
+        : Selected 'very_fast' configuration 4 for module 'CDN_DP_region_31047'.
           Optimizations applied to 'very_fast' configuration:
             rewriting(0), factoring(0), sharing(1), cmultcse(0), downsizing(0), speculation(0)
 Info    : Implementing datapath configurations. [DPOPT-3]
-        : Implementing datapath configurations for 'CDN_DP_region_31046'
+        : Implementing datapath configurations for 'CDN_DP_region_31045'
 Info    : Done implementing datapath configurations. [DPOPT-4]
-        : Selected 'very_fast' configuration 4 for module 'CDN_DP_region_31046'.
+        : Selected 'very_fast' configuration 4 for module 'CDN_DP_region_31045'.
           Optimizations applied to 'very_fast' configuration:
             rewriting(0), factoring(0), sharing(0), cmultcse(0), downsizing(0), speculation(0)
 Info    : Implementing datapath configurations. [DPOPT-3]
-        : Implementing datapath configurations for 'CDN_DP_region_31033'
+        : Implementing datapath configurations for 'CDN_DP_region_31032'
       Timing csa_tree...
 Info    : An implementation was inferred. [CWD-19]
         : The implementation 'hdl_implementation:GB/add_unsigned/very_fast' was inferred through the binding 'b1' for the call to synthetic operator 'ADD_UNS_OP' (pin widths: A=35 B=35 Z=33).
@@ -1041,7 +1033,7 @@ Info    : Sorted the set of valid implementations for synthetic operator. [CWD-3
         : The implementations for the call to synthetic operator 'ADD_UNS_CI_OP' (pin widths: A=35 B=35 CI=1 Z=33) will be considered in the following order: {'hdl_implementation:GB/add_unsigned_carry/very_fast' (priority 1), 'hdl_implementation:GB/add_unsigned_carry/medium' (priority 1), 'hdl_implementation:GB/add_unsigned_carry/slow' (priority 1)}
       Timing add_unsigned_carry_1988...
 Info    : Accepted resource sharing opportunity. [RTLOPT-30]
-        : Merged the following sets of instances in 'CDN_DP_region_31033_c1 in arithmetic_unit32':
+        : Merged the following sets of instances in 'CDN_DP_region_31032_c1 in arithmetic_unit32':
 	  (final_adder_sub_88_34, final_adder_add_87_34)
 
 Info    : An implementation was inferred. [CWD-19]
@@ -1054,7 +1046,7 @@ Info    : Sorted the set of valid implementations for synthetic operator. [CWD-3
         : The implementations for the call to synthetic operator 'ADDSUB_UNS_OP' (pin widths: A=32 B=32 AS=1 Z=33) will be considered in the following order: {'hdl_implementation:GB/addsub_unsigned/very_fast' (priority 1), 'hdl_implementation:GB/addsub_unsigned/medium' (priority 1), 'hdl_implementation:GB/addsub_unsigned/slow' (priority 1)}
       Timing addsub_unsigned_2047...
 Info    : Accepted resource sharing opportunity. [RTLOPT-30]
-        : Merged the following sets of instances in 'CDN_DP_region_31033_c2 in arithmetic_unit32':
+        : Merged the following sets of instances in 'CDN_DP_region_31032_c2 in arithmetic_unit32':
 	  (sub_88_34, add_87_34)
 
 Info    : An implementation was inferred. [CWD-19]
@@ -1078,7 +1070,7 @@ Info    : An implementation was inferred. [CWD-19]
 Info    : Sorted the set of valid implementations for synthetic operator. [CWD-36]
         : The implementations for the call to synthetic operator 'ADD_UNS_CI_OP' (pin widths: A=35 B=35 CI=1 Z=33) will be considered in the following order: {'hdl_implementation:GB/add_unsigned_carry/very_fast' (priority 1), 'hdl_implementation:GB/add_unsigned_carry/medium' (priority 1), 'hdl_implementation:GB/add_unsigned_carry/slow' (priority 1)}
 Info    : Accepted resource sharing opportunity. [RTLOPT-30]
-        : Merged the following sets of instances in 'CDN_DP_region_31033_c3 in arithmetic_unit32':
+        : Merged the following sets of instances in 'CDN_DP_region_31032_c3 in arithmetic_unit32':
 	  (final_adder_sub_88_34, final_adder_add_87_34)
 
 Info    : An implementation was inferred. [CWD-19]
@@ -1090,19 +1082,19 @@ Info    : An implementation was inferred. [CWD-19]
 Info    : Sorted the set of valid implementations for synthetic operator. [CWD-36]
         : The implementations for the call to synthetic operator 'ADDSUB_UNS_OP' (pin widths: A=32 B=32 AS=1 Z=33) will be considered in the following order: {'hdl_implementation:GB/addsub_unsigned/very_fast' (priority 1), 'hdl_implementation:GB/addsub_unsigned/medium' (priority 1), 'hdl_implementation:GB/addsub_unsigned/slow' (priority 1)}
 Info    : Done implementing datapath configurations. [DPOPT-4]
-        : Selected 'very_fast' configuration 4 for module 'CDN_DP_region_31033'.
+        : Selected 'very_fast' configuration 4 for module 'CDN_DP_region_31032'.
           Optimizations applied to 'very_fast' configuration:
             rewriting(0), factoring(0), sharing(0), cmultcse(0), downsizing(0), speculation(0)
 Info    : Implementing datapath configurations. [DPOPT-3]
-        : Implementing datapath configurations for 'CDN_DP_region_31039'
+        : Implementing datapath configurations for 'CDN_DP_region_31038'
 Info    : Done implementing datapath configurations. [DPOPT-4]
-        : Selected 'very_fast' configuration 4 for module 'CDN_DP_region_31039'.
+        : Selected 'very_fast' configuration 4 for module 'CDN_DP_region_31038'.
           Optimizations applied to 'very_fast' configuration:
             rewriting(0), factoring(0), sharing(0), cmultcse(0), downsizing(0), speculation(0)
 Info    : Implementing datapath configurations. [DPOPT-3]
-        : Implementing datapath configurations for 'CDN_DP_region_31037'
+        : Implementing datapath configurations for 'CDN_DP_region_31036'
 Info    : Done implementing datapath configurations. [DPOPT-4]
-        : Selected 'very_fast' configuration 4 for module 'CDN_DP_region_31037'.
+        : Selected 'very_fast' configuration 4 for module 'CDN_DP_region_31036'.
           Optimizations applied to 'very_fast' configuration:
             rewriting(0), factoring(0), sharing(0), cmultcse(0), downsizing(0), speculation(0)
 Info    : Done optimizing datapath logic. [DPOPT-2]
@@ -1115,7 +1107,7 @@ Info    : Done optimizing datapath logic. [DPOPT-2]
               Optimizing muxes in design 'control_unit'.
               Optimizing muxes in design 'decode_unit'.
               Optimizing muxes in design 'dynamic_branch_predictor'.
-              Optimizing muxes in design 'dynamic_branch_predictor_2389'.
+              Optimizing muxes in design 'dynamic_branch_predictor_2388'.
               Optimizing muxes in design 'execute_stage'.
               Optimizing muxes in design 'forwarding_unit'.
               Optimizing muxes in design 'hazard_unit'.
@@ -1128,9 +1120,9 @@ Info    : Done optimizing datapath logic. [DPOPT-2]
 Info    : Attempting to launch a super-threading server. [ST-120]
         : Attempting to Launch server 1 of 8.
         : The tool is entering super-threading mode and is launching a CPU server process.  This is enabled by the root attribute 'super_thread_servers' or 'auto_super_thread'.
-            : The server is process '11411' on this host.
+            : The server is process '72728' on this host.
 Info    : Connection established with super-threading server. [ST-110]
-        : The server 'localhost_1_0' is process '11411' on this host.
+        : The server 'localhost_1_0' is process '72728' on this host.
         : The tool is entering super-threading mode and has established a connection with a CPU server process.  This is enabled by the root attributes 'super_thread_servers' or 'auto_super_thread'.
 Info    : Super thread servers are launched successfully. [ST-128]
         : 8 out of 8 super thread servers are launched. Minimum 1 active super thread server is required.
@@ -1139,52 +1131,52 @@ Info    : Super thread servers are launched successfully. [ST-128]
                   Library loading done successfully on server 'localhost_1_0'.
                   Forking 'localhost_1_0' 7 times to obtain other background servers.
 Info    : Connection established with super-threading server. [ST-110]
-        : The server 'localhost_1_1' is forked process '11578' on this host.
+        : The server 'localhost_1_1' is forked process '72889' on this host.
 Info    : Connection established with super-threading server. [ST-110]
-        : The server 'localhost_1_2' is forked process '11580' on this host.
+        : The server 'localhost_1_2' is forked process '72891' on this host.
 Info    : Connection established with super-threading server. [ST-110]
-        : The server 'localhost_1_3' is forked process '11582' on this host.
+        : The server 'localhost_1_3' is forked process '72893' on this host.
 Info    : Connection established with super-threading server. [ST-110]
-        : The server 'localhost_1_4' is forked process '11584' on this host.
+        : The server 'localhost_1_4' is forked process '72895' on this host.
 Info    : Connection established with super-threading server. [ST-110]
-        : The server 'localhost_1_5' is forked process '11586' on this host.
+        : The server 'localhost_1_5' is forked process '72897' on this host.
 Info    : Connection established with super-threading server. [ST-110]
-        : The server 'localhost_1_6' is forked process '11588' on this host.
+        : The server 'localhost_1_6' is forked process '72899' on this host.
 Info    : Connection established with super-threading server. [ST-110]
-        : The server 'localhost_1_7' is forked process '11590' on this host.
+        : The server 'localhost_1_7' is forked process '72901' on this host.
 Info    : Super thread servers are launched successfully. [ST-128]
         : 8 out of 8 super thread servers are launched. Minimum 1 active super thread server is required.
         Distributing super-thread jobs: data_memory inst_mem btb_file_SETS8_WAYS2_TAGW27 register_file id_ex_pipe if_id_pipe shift_unit32 btb_write_TAGW27 branch_jump_unit logical_unit32
-          Sending 'data_memory' to server 'localhost_1_4'...
-            Sent 'data_memory' to server 'localhost_1_4'.
-          Sending 'inst_mem' to server 'localhost_1_1'...
-            Sent 'inst_mem' to server 'localhost_1_1'.
-          Sending 'btb_file_SETS8_WAYS2_TAGW27' to server 'localhost_1_5'...
-            Sent 'btb_file_SETS8_WAYS2_TAGW27' to server 'localhost_1_5'.
-          Sending 'register_file' to server 'localhost_1_3'...
-            Sent 'register_file' to server 'localhost_1_3'.
-          Sending 'id_ex_pipe' to server 'localhost_1_0'...
-            Sent 'id_ex_pipe' to server 'localhost_1_0'.
-          Sending 'if_id_pipe' to server 'localhost_1_2'...
-            Sent 'if_id_pipe' to server 'localhost_1_2'.
-          Sending 'shift_unit32' to server 'localhost_1_6'...
-            Sent 'shift_unit32' to server 'localhost_1_6'.
-          Sending 'btb_write_TAGW27' to server 'localhost_1_7'...
-            Sent 'btb_write_TAGW27' to server 'localhost_1_7'.
-          Received 'if_id_pipe' from server 'localhost_1_2'. (405 ms elapsed)
-          Sending 'branch_jump_unit' to server 'localhost_1_2'...
-            Sent 'branch_jump_unit' to server 'localhost_1_2'.
-          Received 'id_ex_pipe' from server 'localhost_1_0'. (500 ms elapsed)
-          Sending 'logical_unit32' to server 'localhost_1_0'...
-            Sent 'logical_unit32' to server 'localhost_1_0'.
-          Received 'shift_unit32' from server 'localhost_1_6'. (409 ms elapsed)
-          Received 'branch_jump_unit' from server 'localhost_1_2'. (98 ms elapsed)
-          Received 'logical_unit32' from server 'localhost_1_0'. (97 ms elapsed)
-          Received 'btb_write_TAGW27' from server 'localhost_1_7'. (592 ms elapsed)
-          Received 'btb_file_SETS8_WAYS2_TAGW27' from server 'localhost_1_5'. (1301 ms elapsed)
-          Received 'register_file' from server 'localhost_1_3'. (3115 ms elapsed)
-          Received 'inst_mem' from server 'localhost_1_1'. (16897 ms elapsed)
-          Received 'data_memory' from server 'localhost_1_4'. (168515 ms elapsed)
+          Sending 'data_memory' to server 'localhost_1_2'...
+            Sent 'data_memory' to server 'localhost_1_2'.
+          Sending 'inst_mem' to server 'localhost_1_6'...
+            Sent 'inst_mem' to server 'localhost_1_6'.
+          Sending 'btb_file_SETS8_WAYS2_TAGW27' to server 'localhost_1_7'...
+            Sent 'btb_file_SETS8_WAYS2_TAGW27' to server 'localhost_1_7'.
+          Sending 'register_file' to server 'localhost_1_4'...
+            Sent 'register_file' to server 'localhost_1_4'.
+          Sending 'id_ex_pipe' to server 'localhost_1_1'...
+            Sent 'id_ex_pipe' to server 'localhost_1_1'.
+          Sending 'if_id_pipe' to server 'localhost_1_5'...
+            Sent 'if_id_pipe' to server 'localhost_1_5'.
+          Sending 'shift_unit32' to server 'localhost_1_3'...
+            Sent 'shift_unit32' to server 'localhost_1_3'.
+          Sending 'btb_write_TAGW27' to server 'localhost_1_0'...
+            Sent 'btb_write_TAGW27' to server 'localhost_1_0'.
+          Received 'if_id_pipe' from server 'localhost_1_5'. (411 ms elapsed)
+          Sending 'branch_jump_unit' to server 'localhost_1_5'...
+            Sent 'branch_jump_unit' to server 'localhost_1_5'.
+          Received 'shift_unit32' from server 'localhost_1_3'. (400 ms elapsed)
+          Sending 'logical_unit32' to server 'localhost_1_3'...
+            Sent 'logical_unit32' to server 'localhost_1_3'.
+          Received 'branch_jump_unit' from server 'localhost_1_5'. (97 ms elapsed)
+          Received 'logical_unit32' from server 'localhost_1_3'. (97 ms elapsed)
+          Received 'id_ex_pipe' from server 'localhost_1_1'. (605 ms elapsed)
+          Received 'btb_write_TAGW27' from server 'localhost_1_0'. (636 ms elapsed)
+          Received 'btb_file_SETS8_WAYS2_TAGW27' from server 'localhost_1_7'. (1300 ms elapsed)
+          Received 'register_file' from server 'localhost_1_4'. (2994 ms elapsed)
+          Received 'inst_mem' from server 'localhost_1_6'. (16550 ms elapsed)
+          Received 'data_memory' from server 'localhost_1_2'. (164097 ms elapsed)
               Optimizing muxes in design 'data_memory'.
               Optimizing muxes in design 'inst_mem'.
               Optimizing muxes in design 'btb_file_SETS8_WAYS2_TAGW27'.
@@ -1197,10 +1189,10 @@ Info    : Super thread servers are launched successfully. [ST-128]
               Optimizing muxes in design 'logical_unit32'.
         ------------------------------------------------------------
                             Super-Thread Summary
-          time in super-thread mode               : 175.99 sec
-          foreground process active time          : 2.03 sec
-          background processes total active time  : 191.93 sec
-          approximate speedup                     : 1.10X
+          time in super-thread mode               : 170.98 sec
+          foreground process active time          : 1.93 sec
+          background processes total active time  : 187.19 sec
+          approximate speedup                     : 1.11X
            * reported times are wall-clock (elapsed time),
              not CPU time
         ------------------------------------------------------------
@@ -1208,36 +1200,36 @@ Info    : Super thread servers are launched successfully. [ST-128]
 +-----------+--------------------------+-----+----------------------+---------------------------+
 |   Host    |         Machine          | CPU | Physical Memory (MB) | Peak Physical Memory (MB) |
 +-----------+--------------------------+-----+----------------------+---------------------------+
-| localhost | compute-srv2.eda.atme.in |  8  |        1159.6        |          1570.1           |
+| localhost | compute-srv2.eda.atme.in |  8  |        1175.5        |          1573.6           |
 +-----------+--------------------------+-----+----------------------+---------------------------+
 
 +---------------+----------------------+---------------------------+
 |    Server     | Physical Memory (MB) | Peak Physical Memory (MB) |
 +---------------+----------------------+---------------------------+
-| localhost_1_5 |         51.3         |           51.3            |
-| localhost_1_1 |         72.9         |           72.9            |
-| localhost_1_7 |         48.2         |           48.2            |
-| localhost_1_2 |         47.3         |           47.3            |
-| localhost_1_6 |         47.1         |           47.1            |
-| localhost_1_0 |        462.2         |           871.6           |
-| localhost_1_3 |         53.8         |           53.8            |
-| localhost_1_4 |         88.9         |           88.9            |
+| localhost_1_7 |         54.5         |           54.5            |
+| localhost_1_2 |         90.1         |           90.1            |
+| localhost_1_0 |        480.8         |           885.8           |
+| localhost_1_3 |         50.8         |           50.8            |
+| localhost_1_6 |         72.8         |           72.8            |
+| localhost_1_4 |         55.8         |           55.8            |
+| localhost_1_5 |         50.6         |           50.6            |
+| localhost_1_1 |         51.3         |           51.3            |
 +---------------+----------------------+---------------------------+
 Info    : A super-threading server has been shut down normally. [ST-112]
-        : The server 'localhost_1_4' was forked process '11584' on this host.
+        : The server 'localhost_1_2' was forked process '72891' on this host.
         : A super-threaded optimization is complete and a CPU server was successfully shut down.
 Info    : A super-threading server has been shut down normally. [ST-112]
-        : The server 'localhost_1_1' was forked process '11578' on this host.
+        : The server 'localhost_1_6' was forked process '72899' on this host.
 Info    : A super-threading server has been shut down normally. [ST-112]
-        : The server 'localhost_1_5' was forked process '11586' on this host.
+        : The server 'localhost_1_7' was forked process '72901' on this host.
 Info    : A super-threading server has been shut down normally. [ST-112]
-        : The server 'localhost_1_3' was forked process '11582' on this host.
+        : The server 'localhost_1_4' was forked process '72895' on this host.
 Info    : A super-threading server has been shut down normally. [ST-112]
-        : The server 'localhost_1_2' was forked process '11580' on this host.
+        : The server 'localhost_1_1' was forked process '72889' on this host.
 Info    : A super-threading server has been shut down normally. [ST-112]
-        : The server 'localhost_1_6' was forked process '11588' on this host.
+        : The server 'localhost_1_5' was forked process '72897' on this host.
 Info    : A super-threading server has been shut down normally. [ST-112]
-        : The server 'localhost_1_7' was forked process '11590' on this host.
+        : The server 'localhost_1_3' was forked process '72893' on this host.
 Mapper: Libraries have:
 	domain _default_: 324 combo usable cells and 128 sequential usable cells
       Mapping 'rv32i_core'...
@@ -1246,99 +1238,99 @@ Mapper: Libraries have:
 Updating ST server settings
                   Forking 'localhost_1_0' 7 times to obtain other background servers.
 Info    : Connection established with super-threading server. [ST-110]
-        : The server 'localhost_1_8' is forked process '12364' on this host.
+        : The server 'localhost_1_8' is forked process '73991' on this host.
 Info    : Connection established with super-threading server. [ST-110]
-        : The server 'localhost_1_9' is forked process '12366' on this host.
+        : The server 'localhost_1_9' is forked process '73994' on this host.
 Info    : Connection established with super-threading server. [ST-110]
-        : The server 'localhost_1_10' is forked process '12368' on this host.
+        : The server 'localhost_1_10' is forked process '73996' on this host.
 Info    : Connection established with super-threading server. [ST-110]
-        : The server 'localhost_1_11' is forked process '12370' on this host.
+        : The server 'localhost_1_11' is forked process '73998' on this host.
 Info    : Connection established with super-threading server. [ST-110]
-        : The server 'localhost_1_12' is forked process '12372' on this host.
+        : The server 'localhost_1_12' is forked process '74000' on this host.
 Info    : Connection established with super-threading server. [ST-110]
-        : The server 'localhost_1_13' is forked process '12375' on this host.
+        : The server 'localhost_1_13' is forked process '74002' on this host.
 Info    : Connection established with super-threading server. [ST-110]
-        : The server 'localhost_1_14' is forked process '12378' on this host.
+        : The server 'localhost_1_14' is forked process '74004' on this host.
 Info    : Super thread servers are launched successfully. [ST-128]
         : 8 out of 8 super thread servers are launched. Minimum 1 active super thread server is required.
 Multi-threaded constant propagation [1|0] ...
 Updating ST server settings
 Info    : A super-threading server has been shut down normally. [ST-112]
-        : The server 'localhost_1_8' was forked process '12364' on this host.
+        : The server 'localhost_1_8' was forked process '73991' on this host.
 Info    : A super-threading server has been shut down normally. [ST-112]
-        : The server 'localhost_1_10' was forked process '12368' on this host.
+        : The server 'localhost_1_14' was forked process '74004' on this host.
 Info    : A super-threading server has been shut down normally. [ST-112]
-        : The server 'localhost_1_14' was forked process '12378' on this host.
+        : The server 'localhost_1_13' was forked process '74002' on this host.
 Info    : A super-threading server has been shut down normally. [ST-112]
-        : The server 'localhost_1_13' was forked process '12375' on this host.
+        : The server 'localhost_1_12' was forked process '74000' on this host.
 Info    : A super-threading server has been shut down normally. [ST-112]
-        : The server 'localhost_1_12' was forked process '12372' on this host.
+        : The server 'localhost_1_10' was forked process '73996' on this host.
 Info    : A super-threading server has been shut down normally. [ST-112]
-        : The server 'localhost_1_9' was forked process '12366' on this host.
+        : The server 'localhost_1_11' was forked process '73998' on this host.
 Info    : A super-threading server has been shut down normally. [ST-112]
-        : The server 'localhost_1_11' was forked process '12370' on this host.
+        : The server 'localhost_1_9' was forked process '73994' on this host.
                   Forking 'localhost_1_0' 7 times to obtain other background servers.
 Info    : Connection established with super-threading server. [ST-110]
-        : The server 'localhost_1_15' is forked process '12394' on this host.
+        : The server 'localhost_1_15' is forked process '74631' on this host.
 Info    : Connection established with super-threading server. [ST-110]
-        : The server 'localhost_1_16' is forked process '12396' on this host.
+        : The server 'localhost_1_16' is forked process '74638' on this host.
 Info    : Connection established with super-threading server. [ST-110]
-        : The server 'localhost_1_17' is forked process '12398' on this host.
+        : The server 'localhost_1_17' is forked process '74641' on this host.
 Info    : Connection established with super-threading server. [ST-110]
-        : The server 'localhost_1_18' is forked process '12401' on this host.
+        : The server 'localhost_1_18' is forked process '74643' on this host.
 Info    : Connection established with super-threading server. [ST-110]
-        : The server 'localhost_1_19' is forked process '12403' on this host.
+        : The server 'localhost_1_19' is forked process '74645' on this host.
 Info    : Connection established with super-threading server. [ST-110]
-        : The server 'localhost_1_20' is forked process '12405' on this host.
+        : The server 'localhost_1_20' is forked process '74647' on this host.
 Info    : Connection established with super-threading server. [ST-110]
-        : The server 'localhost_1_21' is forked process '12407' on this host.
+        : The server 'localhost_1_21' is forked process '74649' on this host.
 Info    : Super thread servers are launched successfully. [ST-128]
         : 8 out of 8 super thread servers are launched. Minimum 1 active super thread server is required.
 Info    : A datapath component has been ungrouped. [GB-6]
-        : The instance 'sub_92_44' of datapath component 'sub_unsigned_30522'.
+        : The instance 'sub_92_44' of datapath component 'sub_unsigned_30521'.
 Info    : A datapath component has been ungrouped. [GB-6]
-        : The instance 'add_46_49' of datapath component 'add_unsigned_30509'.
+        : The instance 'add_46_49' of datapath component 'add_unsigned_30508'.
 Info    : A datapath component has been ungrouped. [GB-6]
-        : The instance 'add_47_33' of datapath component 'add_unsigned_30507'.
+        : The instance 'add_47_33' of datapath component 'add_unsigned_30506'.
 Info    : A datapath component has been ungrouped. [GB-6]
         : The instance 'inc_add_48_33' of datapath component 'increment_unsigned_35'.
         Distributing super-thread jobs: data_memory inst_mem
           Sending 'data_memory' to server 'localhost_1_18'...
             Sent 'data_memory' to server 'localhost_1_18'.
-          Sending 'inst_mem' to server 'localhost_1_21'...
-            Sent 'inst_mem' to server 'localhost_1_21'.
-          Received 'data_memory' from server 'localhost_1_18'. (15005 ms elapsed)
-          Received 'inst_mem' from server 'localhost_1_21'. (15554 ms elapsed)
+          Sending 'inst_mem' to server 'localhost_1_17'...
+            Sent 'inst_mem' to server 'localhost_1_17'.
+          Received 'data_memory' from server 'localhost_1_18'. (14095 ms elapsed)
+          Received 'inst_mem' from server 'localhost_1_17'. (12726 ms elapsed)
 Updating ST server settings
 Info    : A super-threading server has been shut down normally. [ST-112]
-        : The server 'localhost_1_18' was forked process '12401' on this host.
+        : The server 'localhost_1_18' was forked process '74643' on this host.
 Info    : A super-threading server has been shut down normally. [ST-112]
-        : The server 'localhost_1_21' was forked process '12407' on this host.
+        : The server 'localhost_1_17' was forked process '74641' on this host.
 Info    : A super-threading server has been shut down normally. [ST-112]
-        : The server 'localhost_1_19' was forked process '12403' on this host.
+        : The server 'localhost_1_21' was forked process '74649' on this host.
 Info    : A super-threading server has been shut down normally. [ST-112]
-        : The server 'localhost_1_17' was forked process '12398' on this host.
+        : The server 'localhost_1_16' was forked process '74638' on this host.
 Info    : A super-threading server has been shut down normally. [ST-112]
-        : The server 'localhost_1_16' was forked process '12396' on this host.
+        : The server 'localhost_1_15' was forked process '74631' on this host.
 Info    : A super-threading server has been shut down normally. [ST-112]
-        : The server 'localhost_1_20' was forked process '12405' on this host.
+        : The server 'localhost_1_19' was forked process '74645' on this host.
 Info    : A super-threading server has been shut down normally. [ST-112]
-        : The server 'localhost_1_15' was forked process '12394' on this host.
+        : The server 'localhost_1_20' was forked process '74647' on this host.
                   Forking 'localhost_1_0' 7 times to obtain other background servers.
 Info    : Connection established with super-threading server. [ST-110]
-        : The server 'localhost_1_22' is forked process '12690' on this host.
+        : The server 'localhost_1_22' is forked process '75318' on this host.
 Info    : Connection established with super-threading server. [ST-110]
-        : The server 'localhost_1_23' is forked process '12692' on this host.
+        : The server 'localhost_1_23' is forked process '75320' on this host.
 Info    : Connection established with super-threading server. [ST-110]
-        : The server 'localhost_1_24' is forked process '12694' on this host.
+        : The server 'localhost_1_24' is forked process '75322' on this host.
 Info    : Connection established with super-threading server. [ST-110]
-        : The server 'localhost_1_25' is forked process '12696' on this host.
+        : The server 'localhost_1_25' is forked process '75324' on this host.
 Info    : Connection established with super-threading server. [ST-110]
-        : The server 'localhost_1_26' is forked process '12698' on this host.
+        : The server 'localhost_1_26' is forked process '75326' on this host.
 Info    : Connection established with super-threading server. [ST-110]
-        : The server 'localhost_1_27' is forked process '12700' on this host.
+        : The server 'localhost_1_27' is forked process '75328' on this host.
 Info    : Connection established with super-threading server. [ST-110]
-        : The server 'localhost_1_28' is forked process '12702' on this host.
+        : The server 'localhost_1_28' is forked process '75330' on this host.
 Info    : Super thread servers are launched successfully. [ST-128]
         : 8 out of 8 super thread servers are launched. Minimum 1 active super thread server is required.
         Distributing super-thread jobs: data_memory inst_mem
@@ -1346,8 +1338,8 @@ Info    : Super thread servers are launched successfully. [ST-128]
             Sent 'data_memory' to server 'localhost_1_25'.
           Sending 'inst_mem' to server 'localhost_1_28'...
             Sent 'inst_mem' to server 'localhost_1_28'.
-          Received 'data_memory' from server 'localhost_1_25'. (12163 ms elapsed)
-          Received 'inst_mem' from server 'localhost_1_28'. (14302 ms elapsed)
+          Received 'data_memory' from server 'localhost_1_25'. (11841 ms elapsed)
+          Received 'inst_mem' from server 'localhost_1_28'. (14107 ms elapsed)
           Analyzing hierarchical boundaries
           Propagating constants
         Done preparing the circuit
@@ -1361,62 +1353,62 @@ Multi-threaded Virtual Mapping    (8 threads per ST process, 8 of 64 CPUs usable
             Finished redundancy-removal...
           Done structuring (delay-based) store_datapath
         Mapping component store_datapath...
-        Distributing super-thread jobs: cb_part_50177 cb_oseq_50168 add_unsigned_30511_31073 add_unsigned_30511
-          Sending 'cb_part_50177' to server 'localhost_1_25'...
-            Sent 'cb_part_50177' to server 'localhost_1_25'.
-          Sending 'cb_oseq_50168' to server 'localhost_1_28'...
-            Sent 'cb_oseq_50168' to server 'localhost_1_28'.
-          Sending 'add_unsigned_30511_31073' to server 'localhost_1_24'...
-            Sent 'add_unsigned_30511_31073' to server 'localhost_1_24'.
-          Sending 'add_unsigned_30511' to server 'localhost_1_23'...
-            Sent 'add_unsigned_30511' to server 'localhost_1_23'.
-          Received 'add_unsigned_30511_31073' from server 'localhost_1_24'. (190 ms elapsed)
-          Received 'add_unsigned_30511' from server 'localhost_1_23'. (227 ms elapsed)
-          Received 'cb_oseq_50168' from server 'localhost_1_28'. (103970 ms elapsed)
-          Received 'cb_part_50177' from server 'localhost_1_25'. (339429 ms elapsed)
-          Structuring (delay-based) cb_part_50177...
-            Starting partial collapsing (xors only) cb_part_50177
+        Distributing super-thread jobs: cb_part_50174 cb_oseq_50165 add_unsigned_30510 add_unsigned_30510_31072
+          Sending 'cb_part_50174' to server 'localhost_1_25'...
+            Sent 'cb_part_50174' to server 'localhost_1_25'.
+          Sending 'cb_oseq_50165' to server 'localhost_1_28'...
+            Sent 'cb_oseq_50165' to server 'localhost_1_28'.
+          Sending 'add_unsigned_30510' to server 'localhost_1_24'...
+            Sent 'add_unsigned_30510' to server 'localhost_1_24'.
+          Sending 'add_unsigned_30510_31072' to server 'localhost_1_23'...
+            Sent 'add_unsigned_30510_31072' to server 'localhost_1_23'.
+          Received 'add_unsigned_30510' from server 'localhost_1_24'. (171 ms elapsed)
+          Received 'add_unsigned_30510_31072' from server 'localhost_1_23'. (200 ms elapsed)
+          Received 'cb_oseq_50165' from server 'localhost_1_28'. (94765 ms elapsed)
+          Received 'cb_part_50174' from server 'localhost_1_25'. (304130 ms elapsed)
+          Structuring (delay-based) cb_part_50174...
+            Starting partial collapsing (xors only) cb_part_50174
             Finished partial collapsing.
-            Starting partial collapsing  cb_part_50177
-            Finished partial collapsing.
-            Starting redundancy-removal...
-            Finished redundancy-removal...
-            Starting redundancy-removal...
-            Finished redundancy-removal...
-          Done structuring (delay-based) cb_part_50177
-        Mapping component cb_part_50177...
-          Structuring (delay-based) cb_oseq_50168...
-            Starting partial collapsing  cb_oseq_50168
+            Starting partial collapsing  cb_part_50174
             Finished partial collapsing.
             Starting redundancy-removal...
             Finished redundancy-removal...
             Starting redundancy-removal...
             Finished redundancy-removal...
-          Done structuring (delay-based) cb_oseq_50168
-        Mapping component cb_oseq_50168...
-          Structuring (delay-based) add_unsigned_30511_31073...
-          Done structuring (delay-based) add_unsigned_30511_31073
-        Mapping component add_unsigned_30511_31073...
-          Structuring (delay-based) add_unsigned_30511...
-          Done structuring (delay-based) add_unsigned_30511
-        Mapping component add_unsigned_30511...
+          Done structuring (delay-based) cb_part_50174
+        Mapping component cb_part_50174...
+          Structuring (delay-based) cb_oseq_50165...
+            Starting partial collapsing  cb_oseq_50165
+            Finished partial collapsing.
+            Starting redundancy-removal...
+            Finished redundancy-removal...
+            Starting redundancy-removal...
+            Finished redundancy-removal...
+          Done structuring (delay-based) cb_oseq_50165
+        Mapping component cb_oseq_50165...
+          Structuring (delay-based) add_unsigned_30510...
+          Done structuring (delay-based) add_unsigned_30510
+        Mapping component add_unsigned_30510...
+          Structuring (delay-based) add_unsigned_30510_31072...
+          Done structuring (delay-based) add_unsigned_30510_31072
+        Mapping component add_unsigned_30510_31072...
           Structuring (delay-based) logic partition in data_memory...
-            Starting partial collapsing  cb_part_50178
+            Starting partial collapsing  cb_part_50175
             Finished partial collapsing.
             Starting redundancy-removal...
             Finished redundancy-removal...
           Done structuring (delay-based) logic partition in data_memory
         Mapping logic partition in data_memory...
-        Distributing super-thread jobs: cb_seq_50167 mrg_mux_ctl
-          Sending 'cb_seq_50167' to server 'localhost_1_25'...
-            Sent 'cb_seq_50167' to server 'localhost_1_25'.
+        Distributing super-thread jobs: cb_seq_50164 mrg_mux_ctl
+          Sending 'cb_seq_50164' to server 'localhost_1_25'...
+            Sent 'cb_seq_50164' to server 'localhost_1_25'.
           Sending 'mrg_mux_ctl' to server 'localhost_1_28'...
             Sent 'mrg_mux_ctl' to server 'localhost_1_28'.
-          Received 'cb_seq_50167' from server 'localhost_1_25'. (59296 ms elapsed)
-          Structuring (delay-based) cb_seq_50167...
-          Done structuring (delay-based) cb_seq_50167
-        Mapping component cb_seq_50167...
-          Received 'mrg_mux_ctl' from server 'localhost_1_28'. (104476 ms elapsed)
+          Received 'cb_seq_50164' from server 'localhost_1_25'. (54904 ms elapsed)
+          Structuring (delay-based) cb_seq_50164...
+          Done structuring (delay-based) cb_seq_50164
+        Mapping component cb_seq_50164...
+          Received 'mrg_mux_ctl' from server 'localhost_1_28'. (100943 ms elapsed)
           Structuring (delay-based) mrg_mux_ctl...
             Starting partial collapsing  mrg_mux_ctl
             Finished partial collapsing.
@@ -1426,20 +1418,20 @@ Multi-threaded Virtual Mapping    (8 threads per ST process, 8 of 64 CPUs usable
             Finished redundancy-removal...
           Done structuring (delay-based) mrg_mux_ctl
         Mapping component mrg_mux_ctl...
-        Distributing super-thread jobs: cb_part_50176 load_datapath
-          Sending 'cb_part_50176' to server 'localhost_1_25'...
-            Sent 'cb_part_50176' to server 'localhost_1_25'.
+        Distributing super-thread jobs: cb_part_50173 load_datapath
+          Sending 'cb_part_50173' to server 'localhost_1_25'...
+            Sent 'cb_part_50173' to server 'localhost_1_25'.
           Sending 'load_datapath' to server 'localhost_1_28'...
             Sent 'load_datapath' to server 'localhost_1_28'.
-          Received 'load_datapath' from server 'localhost_1_28'. (331 ms elapsed)
-          Received 'cb_part_50176' from server 'localhost_1_25'. (1108 ms elapsed)
-          Structuring (delay-based) cb_part_50176...
-            Starting partial collapsing  cb_part_50176
+          Received 'load_datapath' from server 'localhost_1_28'. (313 ms elapsed)
+          Received 'cb_part_50173' from server 'localhost_1_25'. (1040 ms elapsed)
+          Structuring (delay-based) cb_part_50173...
+            Starting partial collapsing  cb_part_50173
             Finished partial collapsing.
             Starting redundancy-removal...
             Finished redundancy-removal...
-          Done structuring (delay-based) cb_part_50176
-        Mapping component cb_part_50176...
+          Done structuring (delay-based) cb_part_50173
+        Mapping component cb_part_50173...
           Structuring (delay-based) load_datapath...
             Starting partial collapsing  load_datapath
             Finished partial collapsing.
@@ -1457,13 +1449,6 @@ Multi-threaded Virtual Mapping    (8 threads per ST process, 8 of 64 CPUs usable
             Finished redundancy-removal...
           Done structuring (delay-based) wb_stage
         Mapping component wb_stage...
-          Structuring (delay-based) logic partition in rv32i_core...
-            Starting partial collapsing  mux_ctl_0x_50160
-            Finished partial collapsing.
-            Starting redundancy-removal...
-            Finished redundancy-removal...
-          Done structuring (delay-based) logic partition in rv32i_core
-        Mapping logic partition in rv32i_core...
           Structuring (delay-based) forwarding_unit...
             Starting partial collapsing  forwarding_unit
             Finished partial collapsing.
@@ -1473,19 +1458,26 @@ Multi-threaded Virtual Mapping    (8 threads per ST process, 8 of 64 CPUs usable
             Finished redundancy-removal...
           Done structuring (delay-based) forwarding_unit
         Mapping component forwarding_unit...
-        Distributing super-thread jobs: cb_seq_50169 cb_oseq mux_ctl_0x_50156
-          Sending 'cb_seq_50169' to server 'localhost_1_25'...
-            Sent 'cb_seq_50169' to server 'localhost_1_25'.
+          Structuring (delay-based) logic partition in rv32i_core...
+            Starting partial collapsing  mux_ctl_0x_50159
+            Finished partial collapsing.
+            Starting redundancy-removal...
+            Finished redundancy-removal...
+          Done structuring (delay-based) logic partition in rv32i_core
+        Mapping logic partition in rv32i_core...
+        Distributing super-thread jobs: cb_seq_50166 cb_oseq mux_ctl_0x_50155
+          Sending 'cb_seq_50166' to server 'localhost_1_25'...
+            Sent 'cb_seq_50166' to server 'localhost_1_25'.
           Sending 'cb_oseq' to server 'localhost_1_28'...
             Sent 'cb_oseq' to server 'localhost_1_28'.
-          Sending 'mux_ctl_0x_50156' to server 'localhost_1_24'...
-            Sent 'mux_ctl_0x_50156' to server 'localhost_1_24'.
-          Received 'mux_ctl_0x_50156' from server 'localhost_1_24'. (1140 ms elapsed)
-          Received 'cb_oseq' from server 'localhost_1_28'. (5361 ms elapsed)
-          Received 'cb_seq_50169' from server 'localhost_1_25'. (10392 ms elapsed)
-          Structuring (delay-based) cb_seq_50169...
-          Done structuring (delay-based) cb_seq_50169
-        Mapping component cb_seq_50169...
+          Sending 'mux_ctl_0x_50155' to server 'localhost_1_24'...
+            Sent 'mux_ctl_0x_50155' to server 'localhost_1_24'.
+          Received 'mux_ctl_0x_50155' from server 'localhost_1_24'. (1109 ms elapsed)
+          Received 'cb_oseq' from server 'localhost_1_28'. (5478 ms elapsed)
+          Received 'cb_seq_50166' from server 'localhost_1_25'. (10678 ms elapsed)
+          Structuring (delay-based) cb_seq_50166...
+          Done structuring (delay-based) cb_seq_50166
+        Mapping component cb_seq_50166...
           Structuring (delay-based) cb_oseq...
             Starting partial collapsing (xors only) cb_oseq
             Finished partial collapsing.
@@ -1497,19 +1489,19 @@ Multi-threaded Virtual Mapping    (8 threads per ST process, 8 of 64 CPUs usable
             Finished redundancy-removal...
           Done structuring (delay-based) cb_oseq
         Mapping component cb_oseq...
-          Structuring (delay-based) mux_ctl_0x_50156...
-            Starting partial collapsing  mux_ctl_0x_50156
+          Structuring (delay-based) mux_ctl_0x_50155...
+            Starting partial collapsing  mux_ctl_0x_50155
             Finished partial collapsing.
             Starting redundancy-removal...
             Finished redundancy-removal...
             Starting redundancy-removal...
             Finished redundancy-removal...
-          Done structuring (delay-based) mux_ctl_0x_50156
-        Mapping component mux_ctl_0x_50156...
+          Done structuring (delay-based) mux_ctl_0x_50155
+        Mapping component mux_ctl_0x_50155...
           Structuring (delay-based) logic partition in shift_unit32...
-            Starting partial collapsing (xors only) cb_part_50182
+            Starting partial collapsing (xors only) cb_part_50179
             Finished partial collapsing.
-            Starting partial collapsing  cb_part_50182
+            Starting partial collapsing  cb_part_50179
             Finished partial collapsing.
             Starting redundancy-removal...
             Finished redundancy-removal...
@@ -1523,36 +1515,36 @@ Multi-threaded Virtual Mapping    (8 threads per ST process, 8 of 64 CPUs usable
           Done structuring (delay-based) logic partition in branch_jump_unit
         Mapping logic partition in branch_jump_unit...
         Rebalancing component 'sll_91_51_Y_sll_83_36'...
-        Distributing super-thread jobs: cb_seq sub_unsigned_31010 add_unsigned_31014 add_unsigned_30515 logical_unit32 shift_left_vlog_unsigned_31008 shift_right_vlog_unsigned_30684 lt_unsigned_30518 lt_signed_30520
+        Distributing super-thread jobs: cb_seq sub_unsigned_31009 add_unsigned_31013 add_unsigned_30514 logical_unit32 shift_left_vlog_unsigned_31007 shift_right_vlog_unsigned_30683 lt_unsigned_30517 lt_signed_30519
           Sending 'cb_seq' to server 'localhost_1_25'...
             Sent 'cb_seq' to server 'localhost_1_25'.
-          Sending 'sub_unsigned_31010' to server 'localhost_1_28'...
-            Sent 'sub_unsigned_31010' to server 'localhost_1_28'.
-          Sending 'add_unsigned_31014' to server 'localhost_1_24'...
-            Sent 'add_unsigned_31014' to server 'localhost_1_24'.
-          Sending 'add_unsigned_30515' to server 'localhost_1_23'...
-            Sent 'add_unsigned_30515' to server 'localhost_1_23'.
+          Sending 'sub_unsigned_31009' to server 'localhost_1_28'...
+            Sent 'sub_unsigned_31009' to server 'localhost_1_28'.
+          Sending 'add_unsigned_31013' to server 'localhost_1_24'...
+            Sent 'add_unsigned_31013' to server 'localhost_1_24'.
+          Sending 'add_unsigned_30514' to server 'localhost_1_23'...
+            Sent 'add_unsigned_30514' to server 'localhost_1_23'.
           Sending 'logical_unit32' to server 'localhost_1_22'...
             Sent 'logical_unit32' to server 'localhost_1_22'.
-          Sending 'shift_left_vlog_unsigned_31008' to server 'localhost_1_0'...
-            Sent 'shift_left_vlog_unsigned_31008' to server 'localhost_1_0'.
-          Sending 'shift_right_vlog_unsigned_30684' to server 'localhost_1_27'...
-            Sent 'shift_right_vlog_unsigned_30684' to server 'localhost_1_27'.
-          Sending 'lt_unsigned_30518' to server 'localhost_1_26'...
-            Sent 'lt_unsigned_30518' to server 'localhost_1_26'.
-          Received 'lt_unsigned_30518' from server 'localhost_1_26'. (246 ms elapsed)
-          Sending 'lt_signed_30520' to server 'localhost_1_26'...
-            Sent 'lt_signed_30520' to server 'localhost_1_26'.
-          Received 'lt_signed_30520' from server 'localhost_1_26'. (231 ms elapsed)
-          Received 'add_unsigned_30515' from server 'localhost_1_23'. (565 ms elapsed)
-          Received 'add_unsigned_31014' from server 'localhost_1_24'. (669 ms elapsed)
-          Received 'sub_unsigned_31010' from server 'localhost_1_28'. (703 ms elapsed)
-          Received 'shift_right_vlog_unsigned_30684' from server 'localhost_1_27'. (640 ms elapsed)
-          Received 'logical_unit32' from server 'localhost_1_22'. (716 ms elapsed)
-          Received 'shift_left_vlog_unsigned_31008' from server 'localhost_1_0'. (759 ms elapsed)
-          Received 'cb_seq' from server 'localhost_1_25'. (2340 ms elapsed)
+          Sending 'shift_left_vlog_unsigned_31007' to server 'localhost_1_26'...
+            Sent 'shift_left_vlog_unsigned_31007' to server 'localhost_1_26'.
+          Sending 'shift_right_vlog_unsigned_30683' to server 'localhost_1_27'...
+            Sent 'shift_right_vlog_unsigned_30683' to server 'localhost_1_27'.
+          Sending 'lt_unsigned_30517' to server 'localhost_1_0'...
+            Sent 'lt_unsigned_30517' to server 'localhost_1_0'.
+          Received 'lt_unsigned_30517' from server 'localhost_1_0'. (288 ms elapsed)
+          Sending 'lt_signed_30519' to server 'localhost_1_0'...
+            Sent 'lt_signed_30519' to server 'localhost_1_0'.
+          Received 'shift_right_vlog_unsigned_30683' from server 'localhost_1_27'. (1531 ms elapsed)
+          Received 'shift_left_vlog_unsigned_31007' from server 'localhost_1_26'. (1548 ms elapsed)
+          Received 'logical_unit32' from server 'localhost_1_22'. (1567 ms elapsed)
+          Received 'sub_unsigned_31009' from server 'localhost_1_28'. (1639 ms elapsed)
+          Received 'add_unsigned_31013' from server 'localhost_1_24'. (1613 ms elapsed)
+          Received 'add_unsigned_30514' from server 'localhost_1_23'. (1592 ms elapsed)
+          Received 'lt_signed_30519' from server 'localhost_1_0'. (106 ms elapsed)
+          Received 'cb_seq' from server 'localhost_1_25'. (2204 ms elapsed)
           Structuring (delay-based) logic partition in btb_file_SETS8_WAYS2_TAGW27...
-            Starting partial collapsing  cb_part_50180
+            Starting partial collapsing  cb_part_50177
             Finished partial collapsing.
             Starting redundancy-removal...
             Finished redundancy-removal...
@@ -1570,15 +1562,15 @@ Multi-threaded Virtual Mapping    (8 threads per ST process, 8 of 64 CPUs usable
           Structuring (delay-based) cb_seq...
           Done structuring (delay-based) cb_seq
         Mapping component cb_seq...
-          Structuring (delay-based) sub_unsigned_31010...
-          Done structuring (delay-based) sub_unsigned_31010
-        Mapping component sub_unsigned_31010...
-          Structuring (delay-based) add_unsigned_31014...
-          Done structuring (delay-based) add_unsigned_31014
-        Mapping component add_unsigned_31014...
-          Structuring (delay-based) add_unsigned_30515...
-          Done structuring (delay-based) add_unsigned_30515
-        Mapping component add_unsigned_30515...
+          Structuring (delay-based) sub_unsigned_31009...
+          Done structuring (delay-based) sub_unsigned_31009
+        Mapping component sub_unsigned_31009...
+          Structuring (delay-based) add_unsigned_31013...
+          Done structuring (delay-based) add_unsigned_31013
+        Mapping component add_unsigned_31013...
+          Structuring (delay-based) add_unsigned_30514...
+          Done structuring (delay-based) add_unsigned_30514
+        Mapping component add_unsigned_30514...
           Structuring (delay-based) logical_unit32...
             Starting partial collapsing  logical_unit32
             Finished partial collapsing.
@@ -1588,33 +1580,33 @@ Multi-threaded Virtual Mapping    (8 threads per ST process, 8 of 64 CPUs usable
             Finished redundancy-removal...
           Done structuring (delay-based) logical_unit32
         Mapping component logical_unit32...
-          Structuring (delay-based) shift_left_vlog_unsigned_31008...
-            Starting partial collapsing  shift_left_vlog_unsigned_31008
+          Structuring (delay-based) shift_left_vlog_unsigned_31007...
+            Starting partial collapsing  shift_left_vlog_unsigned_31007
             Finished partial collapsing.
-          Done structuring (delay-based) shift_left_vlog_unsigned_31008
-        Mapping component shift_left_vlog_unsigned_31008...
-          Structuring (delay-based) shift_right_vlog_unsigned_30684...
-            Starting partial collapsing  shift_right_vlog_unsigned_30684
+          Done structuring (delay-based) shift_left_vlog_unsigned_31007
+        Mapping component shift_left_vlog_unsigned_31007...
+          Structuring (delay-based) shift_right_vlog_unsigned_30683...
+            Starting partial collapsing  shift_right_vlog_unsigned_30683
             Finished partial collapsing.
-          Done structuring (delay-based) shift_right_vlog_unsigned_30684
-        Mapping component shift_right_vlog_unsigned_30684...
-          Structuring (delay-based) lt_unsigned_30518...
-          Done structuring (delay-based) lt_unsigned_30518
-        Mapping component lt_unsigned_30518...
-          Structuring (delay-based) lt_signed_30520...
-          Done structuring (delay-based) lt_signed_30520
-        Mapping component lt_signed_30520...
+          Done structuring (delay-based) shift_right_vlog_unsigned_30683
+        Mapping component shift_right_vlog_unsigned_30683...
+          Structuring (delay-based) lt_unsigned_30517...
+          Done structuring (delay-based) lt_unsigned_30517
+        Mapping component lt_unsigned_30517...
+          Structuring (delay-based) lt_signed_30519...
+          Done structuring (delay-based) lt_signed_30519
+        Mapping component lt_signed_30519...
           Structuring (delay-based) logic partition in arithmetic_unit32...
-            Starting partial collapsing  mux_ctl_0x_50152
+            Starting partial collapsing  mux_ctl_0x_50151
             Finished partial collapsing.
             Starting redundancy-removal...
             Finished redundancy-removal...
           Done structuring (delay-based) logic partition in arithmetic_unit32
         Mapping logic partition in arithmetic_unit32...
           Structuring (delay-based) logic partition in branch_jump_unit...
-            Starting partial collapsing (xors only) cb_part_50173
+            Starting partial collapsing (xors only) cb_part_50170
             Finished partial collapsing.
-            Starting partial collapsing  cb_part_50173
+            Starting partial collapsing  cb_part_50170
             Finished partial collapsing.
             Starting redundancy-removal...
             Finished redundancy-removal...
@@ -1622,15 +1614,6 @@ Multi-threaded Virtual Mapping    (8 threads per ST process, 8 of 64 CPUs usable
             Finished redundancy-removal...
           Done structuring (delay-based) logic partition in branch_jump_unit
         Mapping logic partition in branch_jump_unit...
-          Structuring (delay-based) decode_unit...
-            Starting partial collapsing  decode_unit
-            Finished partial collapsing.
-            Starting redundancy-removal...
-            Finished redundancy-removal...
-            Starting redundancy-removal...
-            Finished redundancy-removal...
-          Done structuring (delay-based) decode_unit
-        Mapping component decode_unit...
           Structuring (delay-based) hazard_unit...
             Starting partial collapsing  hazard_unit
             Finished partial collapsing.
@@ -1640,54 +1623,60 @@ Multi-threaded Virtual Mapping    (8 threads per ST process, 8 of 64 CPUs usable
             Finished redundancy-removal...
           Done structuring (delay-based) hazard_unit
         Mapping component hazard_unit...
-        Distributing super-thread jobs: cb_oseq_50164 mux_ctl_0x_50157 cb_part_50183
-          Sending 'cb_oseq_50164' to server 'localhost_1_25'...
-            Sent 'cb_oseq_50164' to server 'localhost_1_25'.
-          Sending 'mux_ctl_0x_50157' to server 'localhost_1_28'...
-            Sent 'mux_ctl_0x_50157' to server 'localhost_1_28'.
-          Sending 'cb_part_50183' to server 'localhost_1_24'...
-            Sent 'cb_part_50183' to server 'localhost_1_24'.
-          Received 'cb_part_50183' from server 'localhost_1_24'. (326 ms elapsed)
-          Received 'mux_ctl_0x_50157' from server 'localhost_1_28'. (503 ms elapsed)
-          Received 'cb_oseq_50164' from server 'localhost_1_25'. (818 ms elapsed)
+          Structuring (delay-based) decode_unit...
+            Starting partial collapsing  decode_unit
+            Finished partial collapsing.
+            Starting redundancy-removal...
+            Finished redundancy-removal...
+            Starting redundancy-removal...
+            Finished redundancy-removal...
+          Done structuring (delay-based) decode_unit
+        Mapping component decode_unit...
+        Distributing super-thread jobs: id_ex_pipe mux_ctl_0x_50156 cb_part_50180
+          Sending 'id_ex_pipe' to server 'localhost_1_25'...
+            Sent 'id_ex_pipe' to server 'localhost_1_25'.
+          Sending 'mux_ctl_0x_50156' to server 'localhost_1_28'...
+            Sent 'mux_ctl_0x_50156' to server 'localhost_1_28'.
+          Sending 'cb_part_50180' to server 'localhost_1_24'...
+            Sent 'cb_part_50180' to server 'localhost_1_24'.
+          Received 'cb_part_50180' from server 'localhost_1_24'. (291 ms elapsed)
+          Received 'mux_ctl_0x_50156' from server 'localhost_1_28'. (503 ms elapsed)
+          Received 'id_ex_pipe' from server 'localhost_1_25'. (1037 ms elapsed)
           Structuring (delay-based) logic partition in compare_unit32...
             Starting redundancy-removal...
             Finished redundancy-removal...
           Done structuring (delay-based) logic partition in compare_unit32
         Mapping logic partition in compare_unit32...
-          Structuring (delay-based) cb_oseq_50164...
-            Starting partial collapsing  cb_oseq_50164
+          Structuring (delay-based) id_ex_pipe...
+            Starting partial collapsing  id_ex_pipe
             Finished partial collapsing.
             Starting redundancy-removal...
             Finished redundancy-removal...
-          Done structuring (delay-based) cb_oseq_50164
-        Mapping component cb_oseq_50164...
-          Structuring (delay-based) mux_ctl_0x_50157...
-            Starting partial collapsing  mux_ctl_0x_50157
+          Done structuring (delay-based) id_ex_pipe
+        Mapping component id_ex_pipe...
+          Structuring (delay-based) mux_ctl_0x_50156...
+            Starting partial collapsing  mux_ctl_0x_50156
             Finished partial collapsing.
             Starting redundancy-removal...
             Finished redundancy-removal...
             Starting redundancy-removal...
             Finished redundancy-removal...
-          Done structuring (delay-based) mux_ctl_0x_50157
-        Mapping component mux_ctl_0x_50157...
-          Structuring (delay-based) cb_part_50183...
-            Starting partial collapsing  cb_part_50183
+          Done structuring (delay-based) mux_ctl_0x_50156
+        Mapping component mux_ctl_0x_50156...
+          Structuring (delay-based) cb_part_50180...
+            Starting partial collapsing  cb_part_50180
             Finished partial collapsing.
             Starting redundancy-removal...
             Finished redundancy-removal...
-          Done structuring (delay-based) cb_part_50183
-        Mapping component cb_part_50183...
-        Distributing super-thread jobs: cb_part_50181 cb_seq_50163 mux_ctl_0x_50155
-          Sending 'cb_part_50181' to server 'localhost_1_25'...
-            Sent 'cb_part_50181' to server 'localhost_1_25'.
-          Sending 'cb_seq_50163' to server 'localhost_1_28'...
-            Sent 'cb_seq_50163' to server 'localhost_1_28'.
-          Sending 'mux_ctl_0x_50155' to server 'localhost_1_24'...
-            Sent 'mux_ctl_0x_50155' to server 'localhost_1_24'.
-          Received 'cb_seq_50163' from server 'localhost_1_28'. (229 ms elapsed)
-          Received 'mux_ctl_0x_50155' from server 'localhost_1_24'. (295 ms elapsed)
-          Received 'cb_part_50181' from server 'localhost_1_25'. (2485 ms elapsed)
+          Done structuring (delay-based) cb_part_50180
+        Mapping component cb_part_50180...
+        Distributing super-thread jobs: cb_part_50178 mux_ctl_0x_50154
+          Sending 'cb_part_50178' to server 'localhost_1_25'...
+            Sent 'cb_part_50178' to server 'localhost_1_25'.
+          Sending 'mux_ctl_0x_50154' to server 'localhost_1_28'...
+            Sent 'mux_ctl_0x_50154' to server 'localhost_1_28'.
+          Received 'mux_ctl_0x_50154' from server 'localhost_1_28'. (320 ms elapsed)
+          Received 'cb_part_50178' from server 'localhost_1_25'. (2660 ms elapsed)
           Structuring (delay-based) btb_read_TAGW27...
             Starting partial collapsing  btb_read_TAGW27
             Finished partial collapsing.
@@ -1695,53 +1684,43 @@ Multi-threaded Virtual Mapping    (8 threads per ST process, 8 of 64 CPUs usable
             Finished redundancy-removal...
           Done structuring (delay-based) btb_read_TAGW27
         Mapping component btb_read_TAGW27...
-          Structuring (delay-based) cb_part_50181...
-            Starting partial collapsing  cb_part_50181
+          Structuring (delay-based) cb_part_50178...
+            Starting partial collapsing  cb_part_50178
             Finished partial collapsing.
             Starting redundancy-removal...
             Finished redundancy-removal...
             Starting redundancy-removal...
             Finished redundancy-removal...
-          Done structuring (delay-based) cb_part_50181
-        Mapping component cb_part_50181...
-          Structuring (delay-based) cb_seq_50163...
-          Done structuring (delay-based) cb_seq_50163
-        Mapping component cb_seq_50163...
-          Structuring (delay-based) mux_ctl_0x_50155...
-            Starting partial collapsing  mux_ctl_0x_50155
+          Done structuring (delay-based) cb_part_50178
+        Mapping component cb_part_50178...
+          Structuring (delay-based) mux_ctl_0x_50154...
+            Starting partial collapsing  mux_ctl_0x_50154
             Finished partial collapsing.
             Starting redundancy-removal...
             Finished redundancy-removal...
-          Done structuring (delay-based) mux_ctl_0x_50155
-        Mapping component mux_ctl_0x_50155...
+          Done structuring (delay-based) mux_ctl_0x_50154
+        Mapping component mux_ctl_0x_50154...
           Structuring (delay-based) logic partition in btb...
-            Starting partial collapsing  mux_ctl_0x_50158
+            Starting partial collapsing  mux_ctl_0x_50157
             Finished partial collapsing.
             Starting redundancy-removal...
             Finished redundancy-removal...
           Done structuring (delay-based) logic partition in btb
         Mapping logic partition in btb...
           Structuring (delay-based) logic partition in if_stage_simple_btb...
-            Starting partial collapsing  mux_ctl_0x_50159
+            Starting partial collapsing  mux_ctl_0x_50158
             Finished partial collapsing.
             Starting redundancy-removal...
             Finished redundancy-removal...
           Done structuring (delay-based) logic partition in if_stage_simple_btb
         Mapping logic partition in if_stage_simple_btb...
-        Distributing super-thread jobs: cb_seq_50165 if_id_pipe
-          Sending 'cb_seq_50165' to server 'localhost_1_25'...
-            Sent 'cb_seq_50165' to server 'localhost_1_25'.
+        Distributing super-thread jobs: cb_seq_50162 if_id_pipe
+          Sending 'cb_seq_50162' to server 'localhost_1_25'...
+            Sent 'cb_seq_50162' to server 'localhost_1_25'.
           Sending 'if_id_pipe' to server 'localhost_1_28'...
             Sent 'if_id_pipe' to server 'localhost_1_28'.
-          Received 'if_id_pipe' from server 'localhost_1_28'. (408 ms elapsed)
-          Received 'cb_seq_50165' from server 'localhost_1_25'. (1508 ms elapsed)
-          Structuring (delay-based) dynamic_branch_predictor_2389...
-            Starting partial collapsing  dynamic_branch_predictor_2389
-            Finished partial collapsing.
-            Starting redundancy-removal...
-            Finished redundancy-removal...
-          Done structuring (delay-based) dynamic_branch_predictor_2389
-        Mapping component dynamic_branch_predictor_2389...
+          Received 'if_id_pipe' from server 'localhost_1_28'. (438 ms elapsed)
+          Received 'cb_seq_50162' from server 'localhost_1_25'. (1629 ms elapsed)
           Structuring (delay-based) pc_reg...
             Starting partial collapsing  pc_reg
             Finished partial collapsing.
@@ -1749,12 +1728,6 @@ Multi-threaded Virtual Mapping    (8 threads per ST process, 8 of 64 CPUs usable
             Finished redundancy-removal...
           Done structuring (delay-based) pc_reg
         Mapping component pc_reg...
-          Structuring (delay-based) logic partition in ex_mem_pipe...
-          Done structuring (delay-based) logic partition in ex_mem_pipe
-        Mapping logic partition in ex_mem_pipe...
-          Structuring (delay-based) logic partition in ex_mem_pipe...
-          Done structuring (delay-based) logic partition in ex_mem_pipe
-        Mapping logic partition in ex_mem_pipe...
           Structuring (delay-based) dynamic_branch_predictor...
             Starting partial collapsing  dynamic_branch_predictor
             Finished partial collapsing.
@@ -1765,9 +1738,22 @@ Multi-threaded Virtual Mapping    (8 threads per ST process, 8 of 64 CPUs usable
           Structuring (delay-based) logic partition in mem_wb_pipe...
           Done structuring (delay-based) logic partition in mem_wb_pipe
         Mapping logic partition in mem_wb_pipe...
-          Structuring (delay-based) cb_seq_50165...
-          Done structuring (delay-based) cb_seq_50165
-        Mapping component cb_seq_50165...
+          Structuring (delay-based) logic partition in ex_mem_pipe...
+          Done structuring (delay-based) logic partition in ex_mem_pipe
+        Mapping logic partition in ex_mem_pipe...
+          Structuring (delay-based) dynamic_branch_predictor_2388...
+            Starting partial collapsing  dynamic_branch_predictor_2388
+            Finished partial collapsing.
+            Starting redundancy-removal...
+            Finished redundancy-removal...
+          Done structuring (delay-based) dynamic_branch_predictor_2388
+        Mapping component dynamic_branch_predictor_2388...
+          Structuring (delay-based) logic partition in ex_mem_pipe...
+          Done structuring (delay-based) logic partition in ex_mem_pipe
+        Mapping logic partition in ex_mem_pipe...
+          Structuring (delay-based) cb_seq_50162...
+          Done structuring (delay-based) cb_seq_50162
+        Mapping component cb_seq_50162...
           Structuring (delay-based) if_id_pipe...
             Starting partial collapsing  if_id_pipe
             Finished partial collapsing.
@@ -1781,149 +1767,152 @@ Global mapping target info
 Cost Group 'clk' target slack:    23 ps
 Target path end-point (Pin: u_id_ex/imm_ex_reg[30]/d)
 
-         Pin                     Type          Fanout  Load Arrival   
-                                                       (fF)   (ps)    
-----------------------------------------------------------------------
-(clock clk)            <<<  launch                                0 R 
+        Pin                     Type          Fanout  Load Arrival   
+                                                      (fF)   (ps)    
+---------------------------------------------------------------------
+(clock clk)           <<<  launch                                0 R 
 u_mem_wb
   cb_oseqi
-    rd_out_reg[3]/clk                                                 
-    rd_out_reg[3]/q    (u)  unmapped_d_flop        15 115.4           
+    rd_out_reg[3]/clk                                                
+    rd_out_reg[3]/q   (u)  unmapped_d_flop        15 115.4           
   cb_oseqi/rd_out[3] 
 u_mem_wb/rd_out[3] 
 u_fwd/memwb_rd[3] 
-  g1623/in_1                                                          
-  g1623/z              (u)  unmapped_or2            1   1.1           
-  g1585/in_0                                                          
-  g1585/z              (u)  unmapped_or2            1   1.1           
-  g1574/in_1                                                          
-  g1574/z              (u)  unmapped_or2            2   2.2           
-  g1563/in_1                                                          
-  g1563/z              (u)  unmapped_complex2       1   1.0           
-  g1558/in_1                                                          
-  g1558/z              (u)  unmapped_or2            1   1.0           
-  g1653/in_1                                                          
-  g1653/z              (u)  unmapped_complex2      15  16.5           
+  g1623/in_1                                                         
+  g1623/z             (u)  unmapped_or2            1   1.1           
+  g1585/in_0                                                         
+  g1585/z             (u)  unmapped_or2            1   1.1           
+  g1574/in_1                                                         
+  g1574/z             (u)  unmapped_or2            2   2.2           
+  g1563/in_1                                                         
+  g1563/z             (u)  unmapped_complex2       1   1.0           
+  g1558/in_1                                                         
+  g1558/z             (u)  unmapped_or2            1   1.0           
+  g1653/in_1                                                         
+  g1653/z             (u)  unmapped_complex2      15  16.5           
 u_fwd/operand_b_forward_cntl[1] 
 u_exe/operand_b_forward_cntl[1] 
   mux_ctl_0xi/operand_b_forward_cntl[1] 
-    g2423/in_1                                                        
-    g2423/z            (u)  unmapped_complex2      32  35.2           
-    g2361/in_0                                                        
-    g2361/z            (u)  unmapped_complex2       1   1.1           
-    g2164/in_1                                                        
-    g2164/z            (u)  unmapped_nand2          1   1.0           
-    g2082/in_1                                                        
-    g2082/z            (u)  unmapped_complex2       2   2.0           
-    g2011/in_0                                                        
-    g2011/z            (u)  unmapped_complex2       1   1.1           
-    g1994/in_0                                                        
-    g1994/z            (u)  unmapped_nand2        142  12.0           
+    g2423/in_1                                                       
+    g2423/z           (u)  unmapped_complex2      32  35.2           
+    g2361/in_0                                                       
+    g2361/z           (u)  unmapped_complex2       1   1.1           
+    g2164/in_1                                                       
+    g2164/z           (u)  unmapped_nand2          1   1.0           
+    g2082/in_1                                                       
+    g2082/z           (u)  unmapped_complex2       2   2.0           
+    g2012/in_0                                                       
+    g2012/z           (u)  unmapped_complex2       1   1.1           
+    g1994/in_0                                                       
+    g1994/z           (u)  unmapped_nand2        142  12.0           
   mux_ctl_0xi/u_alu_top_rs2[0] 
   u_alu_top/rs2[0] 
     u_arith/rs2[0] 
-      add_87_34/B[0] 
-        g2/in_1                                                       
-        g2/z           (u)  unmapped_nand2          3   3.3           
-        g854/in_0                                                     
-        g854/z         (u)  unmapped_complex2       1   1.1           
-        g70/in_1                                                      
-        g70/z          (u)  unmapped_nand2          4   4.0           
-        g782/in_1                                                     
-        g782/z         (u)  unmapped_complex2       1   1.1           
-        g775/in_1                                                     
-        g775/z         (u)  unmapped_complex2       6   6.0           
-        g540/in_0                                                     
-        g540/z         (u)  unmapped_complex2       1   1.1           
-        g728/in_1                                                     
-        g728/z         (u)  unmapped_complex2      10  10.0           
-        g720/in_1                                                     
-        g720/z         (u)  unmapped_complex2       1   1.1           
-        g694/in_1                                                     
-        g694/z         (u)  unmapped_complex2      18  18.0           
-        g576/in_0                                                     
-        g576/z         (u)  unmapped_complex2       1   1.1           
-        g644/in_1                                                     
-        g644/z         (u)  unmapped_complex2       2   2.0           
-        g618/in_0                                                     
-        g618/z         (u)  unmapped_or2            1   1.0           
-        g619/in_1                                                     
-        g619/z         (u)  unmapped_nand2          1   1.1           
-      add_87_34/Z[29] 
-      mux_ctl_0xi/add_87_34_Z[29] 
-        g979/in_1                                                     
-        g979/z         (u)  unmapped_nand2          1   1.0           
-        g898/in_1                                                     
-        g898/z         (u)  unmapped_nand2          1   1.1           
-        g830/in_1                                                     
-        g830/z         (u)  unmapped_complex2       2   2.2           
-        g814/in_1                                                     
-        g814/z         (u)  unmapped_or2            1   1.1           
-        g800/in_1                                                     
-        g800/z         (u)  unmapped_or2            1   1.1           
-        g793/in_1                                                     
-        g793/z         (u)  unmapped_or2            1   1.1           
-        g788/in_1                                                     
-        g788/z         (u)  unmapped_or2            1   1.1           
-        g993/in_1                                                     
-        g993/z         (u)  unmapped_nor2           2   2.0           
+      sub_88_34/B[0] 
+        g543/in_1                                                    
+        g543/z        (u)  unmapped_complex2       3   3.3           
+        g957/in_0                                                    
+        g957/z        (u)  unmapped_nand2          1   1.0           
+        g100/in_1                                                    
+        g100/z        (u)  unmapped_nand2          4   4.4           
+        g884/in_1                                                    
+        g884/z        (u)  unmapped_complex2       1   1.0           
+        g876/in_1                                                    
+        g876/z        (u)  unmapped_complex2       6   6.6           
+        g635/in_0                                                    
+        g635/z        (u)  unmapped_complex2       1   1.0           
+        g830/in_1                                                    
+        g830/z        (u)  unmapped_complex2      10  11.0           
+        g813/in_1                                                    
+        g813/z        (u)  unmapped_complex2       1   1.0           
+        g781/in_1                                                    
+        g781/z        (u)  unmapped_complex2      18  19.8           
+        g666/in_1                                                    
+        g666/z        (u)  unmapped_complex2       1   1.0           
+        g742/in_1                                                    
+        g742/z        (u)  unmapped_complex2       2   2.2           
+        g699/in_0                                                    
+        g699/z        (u)  unmapped_or2            1   1.1           
+        g700/in_1                                                    
+        g700/z        (u)  unmapped_nand2          1   1.0           
+      sub_88_34/Z[20] 
+      mux_ctl_0xi/sub_88_34_Z[20] 
+        g1002/in_1                                                   
+        g1002/z       (u)  unmapped_complex2       1   1.1           
+        g981/in_1                                                    
+        g981/z        (u)  unmapped_nand2          1   1.0           
+        g945/in_1                                                    
+        g945/z        (u)  unmapped_complex2       2   2.0           
+        g930/in_1                                                    
+        g930/z        (u)  unmapped_or2            1   1.0           
+        g911/in_0                                                    
+        g911/z        (u)  unmapped_or2            1   1.0           
+        g910/in_1                                                    
+        g910/z        (u)  unmapped_or2            1   1.0           
+        g909/in_1                                                    
+        g909/z        (u)  unmapped_or2            1   1.0           
+        g1131/in_1                                                   
+        g1131/z       (u)  unmapped_nor2           2   2.2           
       mux_ctl_0xi/zero_flag 
     u_arith/zero_flag 
   u_alu_top/zero_flag 
 u_exe/zero_flag_ex 
 u_branch/zero_flag 
   cb_parti221/zero_flag 
-    g1018/in_1                                                        
-    g1018/z            (u)  unmapped_complex2       1   1.1           
-    g1006/in_0                                                        
-    g1006/z            (u)  unmapped_complex2       1   1.0           
-    g1005/in_1                                                        
-    g1005/z            (u)  unmapped_or2            8   8.0           
-    g1002/in_0                                                        
-    g1002/z            (u)  unmapped_complex2      65   9.9           
-    g1004/in_0                                                        
-    g1004/z            (u)  unmapped_nand2         73   9.0           
+    g991/in_1                                                        
+    g991/z            (u)  unmapped_or2            1   1.1           
+    g984/in_1                                                        
+    g984/z            (u)  unmapped_complex2       1   1.0           
+    g983/in_1                                                        
+    g983/z            (u)  unmapped_complex2       1   1.0           
+    g982/in_1                                                        
+    g982/z            (u)  unmapped_or2            8   8.0           
+    g480/in_0                                                        
+    g480/z            (u)  unmapped_complex2      65   9.9           
+    g981/in_0                                                        
+    g981/z            (u)  unmapped_nand2         71   9.0           
   cb_parti221/modify_pc_ex 
 u_branch/modify_pc_ex 
+u_hazard/modify_pc_ex 
+  g487/in_0                                                          
+  g487/z              (u)  unmapped_complex2       9   9.0           
+u_hazard/id_ex_flush 
 u_decode/id_flush 
   u_decode_unit/id_flush 
-    g1505/in_1                                                        
-    g1505/z            (u)  unmapped_or2            5   5.0           
-    g1461/in_1                                                        
-    g1461/z            (u)  unmapped_complex2       7   7.0           
-    g1440/in_1                                                        
-    g1440/z            (u)  unmapped_complex2      11  11.0           
-    g1412/in_0                                                        
-    g1412/z            (u)  unmapped_nand2          1   1.1           
+    g1815/in_1                                                       
+    g1815/z           (u)  unmapped_or2            4   4.0           
+    g1769/in_1                                                       
+    g1769/z           (u)  unmapped_complex2       7   7.0           
+    g1753/in_1                                                       
+    g1753/z           (u)  unmapped_complex2      11  11.0           
+    g1719/in_0                                                       
+    g1719/z           (u)  unmapped_nand2          1   1.1           
   u_decode_unit/imm_out[30] 
 u_decode/imm_out[30] 
 u_id_ex/imm_out[30] 
-  cb_oseqi/imm_out[30] 
-    g2891/in_1                                                        
-    g2891/z            (u)  unmapped_complex2       1   1.0           
-    g2767/in_0                                                        
-    g2767/z            (u)  unmapped_nand2          1   1.1           
-  cb_oseqi/cb_seqi_g501_g1111_z 
-  cb_seqi/g501_g1111_z 
-    imm_ex_reg[30]/d   <<<  unmapped_d_flop                           
-    imm_ex_reg[30]/clk      setup                                     
-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
-(clock clk)                 capture                            1000 R 
-                            uncertainty                               
-----------------------------------------------------------------------
+  g2891/in_1                                                         
+  g2891/z             (u)  unmapped_complex2       1   1.0           
+  g2768/in_0                                                         
+  g2768/z             (u)  unmapped_nand2          1   1.1           
+  imm_ex_reg[30]/d    <<<  unmapped_d_flop                           
+  imm_ex_reg[30]/clk       setup                                     
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+(clock clk)                capture                            1000 R 
+                           uncertainty                               
+---------------------------------------------------------------------
 Cost Group   : 'clk' (path_group 'clk')
 Start-point  : u_mem_wb/cb_oseqi/rd_out_reg[3]/clk
-End-point    : u_id_ex/cb_seqi/imm_ex_reg[30]/d
+End-point    : u_id_ex/imm_ex_reg[30]/d
 
 (u) : Net has unmapped pin(s).
 
-The global mapper estimates a slack for this path of 75ps.
+The global mapper estimates a slack for this path of 49ps.
  
         ------------------------------------------------------------
                             Super-Thread Summary
-          time in super-thread mode               : 709.81 sec
-          foreground process active time          : 200.68 sec
-          background processes total active time  : 665.83 sec
+          time in super-thread mode               : 676.33 sec
+          foreground process active time          : 206.68 sec
+          background processes total active time  : 618.64 sec
           approximate speedup                     : 1.22X
            * reported times are wall-clock (elapsed time),
              not CPU time
@@ -1932,73 +1921,73 @@ The global mapper estimates a slack for this path of 75ps.
 +-----------+--------------------------+-----+----------------------+---------------------------+
 |   Host    |         Machine          | CPU | Physical Memory (MB) | Peak Physical Memory (MB) |
 +-----------+--------------------------+-----+----------------------+---------------------------+
-| localhost | compute-srv2.eda.atme.in |  8  |        1815.7        |          2216.8           |
+| localhost | compute-srv2.eda.atme.in |  8  |        1906.7        |          2364.4           |
 +-----------+--------------------------+-----+----------------------+---------------------------+
 
 +----------------+----------------------+---------------------------+
 |     Server     | Physical Memory (MB) | Peak Physical Memory (MB) |
 +----------------+----------------------+---------------------------+
-| localhost_1_23 |         52.9         |           52.9            |
-| localhost_1_28 |        110.3         |           110.3           |
-| localhost_1_27 |         50.4         |           50.4            |
-| localhost_1_26 |         49.2         |           49.2            |
-| localhost_1_0  |        530.4         |          1186.5           |
-| localhost_1_22 |         53.3         |           53.3            |
-| localhost_1_24 |         55.4         |           55.4            |
-| localhost_1_25 |        105.3         |           105.3           |
+| localhost_1_27 |         54.3         |           54.3            |
+| localhost_1_24 |         60.5         |           60.5            |
+| localhost_1_25 |        109.6         |           109.6           |
+| localhost_1_0  |        553.4         |          1199.6           |
+| localhost_1_23 |         56.3         |           56.3            |
+| localhost_1_26 |         54.4         |           54.4            |
+| localhost_1_22 |         57.4         |           57.4            |
+| localhost_1_28 |        103.3         |           103.3           |
 +----------------+----------------------+---------------------------+
 Info    : A super-threading server has been shut down normally. [ST-112]
-        : The server 'localhost_1_25' was forked process '12696' on this host.
+        : The server 'localhost_1_25' was forked process '75324' on this host.
 Info    : A super-threading server has been shut down normally. [ST-112]
-        : The server 'localhost_1_28' was forked process '12702' on this host.
+        : The server 'localhost_1_28' was forked process '75330' on this host.
 Info    : A super-threading server has been shut down normally. [ST-112]
-        : The server 'localhost_1_24' was forked process '12694' on this host.
+        : The server 'localhost_1_24' was forked process '75322' on this host.
 Info    : A super-threading server has been shut down normally. [ST-112]
-        : The server 'localhost_1_23' was forked process '12692' on this host.
+        : The server 'localhost_1_23' was forked process '75320' on this host.
 Info    : A super-threading server has been shut down normally. [ST-112]
-        : The server 'localhost_1_22' was forked process '12690' on this host.
+        : The server 'localhost_1_22' was forked process '75318' on this host.
 Info    : A super-threading server has been shut down normally. [ST-112]
-        : The server 'localhost_1_27' was forked process '12700' on this host.
+        : The server 'localhost_1_26' was forked process '75326' on this host.
 Info    : A super-threading server has been shut down normally. [ST-112]
-        : The server 'localhost_1_26' was forked process '12698' on this host.
+        : The server 'localhost_1_27' was forked process '75328' on this host.
 
 +-----------+--------------------------+-----+----------------------+---------------------------+
 |   Host    |         Machine          | CPU | Physical Memory (MB) | Peak Physical Memory (MB) |
 +-----------+--------------------------+-----+----------------------+---------------------------+
-| localhost | compute-srv2.eda.atme.in |  1  |        1498.9        |          2216.8           |
+| localhost | compute-srv2.eda.atme.in |  1  |        1571.4        |          2364.4           |
 +-----------+--------------------------+-----+----------------------+---------------------------+
 
 +---------------+----------------------+---------------------------+
 |    Server     | Physical Memory (MB) | Peak Physical Memory (MB) |
 +---------------+----------------------+---------------------------+
-| localhost_1_0 |        212.9         |          1186.5           |
+| localhost_1_0 |        217.3         |          1199.6           |
 +---------------+----------------------+---------------------------+
 Info    : Using '2' number of super-threading servers using the attribute 'super_thread_servers' could have
-          saved '195' more seconds during global map.
-PBS_Generic_Opt-Post - Elapsed_Time 1280, CPU_Time 1126.065982
+          saved '184' more seconds during global map.
+PBS_Generic_Opt-Post - Elapsed_Time 1095, CPU_Time 1088.510981
 stamp 'PBS_Generic_Opt-Post' being created for table 'pbs_debug'
 
   Total Time (Wall) |  Stage Time (Wall)  |   % (Wall)   |    Date - Time     |  Memory   | Stage
 --------------------+---------------------+--------------+--------------------+-----------+----------------------
- 00:01:12(00:01:13) |  00:00:00(00:00:00) |   0.0(  0.0) |   23:26:04 (Mar06) |  619.9 MB | PBS_Generic-Start
+ 00:01:12(00:01:12) |  00:00:00(00:00:00) |   0.0(  0.0) |    3:24:29 (Mar07) |  625.0 MB | PBS_Generic-Start
 --------------------+---------------------+--------------+--------------------+-----------+----------------------
- 00:19:58(00:22:34) |  00:18:46(00:21:21) | 100.0(100.0) |   23:47:24 (Mar06) |   1.50 GB | PBS_Generic_Opt-Post
+ 00:19:20(00:19:28) |  00:18:08(00:18:16) | 100.0(100.0) |    3:42:45 (Mar07) |   1.57 GB | PBS_Generic_Opt-Post
 --------------------+---------------------+--------------+--------------------+-----------+----------------------
 Number of threads: 8 * 1   (id: pbs_debug, time_info v1.57)
 Info: (*N*) indicates data that was populated from previously saved time_info database
 Info: CPU time includes time of parent + longest thread
         Applying wireload models.
         Computing net loads.
-PBS_Generic-Postgen HBO Optimizations - Elapsed_Time 7, CPU_Time 7.0
+PBS_Generic-Postgen HBO Optimizations - Elapsed_Time 9, CPU_Time 7.0
 stamp 'PBS_Generic-Postgen HBO Optimizations' being created for table 'pbs_debug'
 
   Total Time (Wall) |  Stage Time (Wall)  |   % (Wall)   |    Date - Time     |  Memory   | Stage
 --------------------+---------------------+--------------+--------------------+-----------+----------------------
- 00:01:12(00:01:13) |  00:00:00(00:00:00) |   0.0(  0.0) |   23:26:04 (Mar06) |  619.9 MB | PBS_Generic-Start
+ 00:01:12(00:01:12) |  00:00:00(00:00:00) |   0.0(  0.0) |    3:24:29 (Mar07) |  625.0 MB | PBS_Generic-Start
 --------------------+---------------------+--------------+--------------------+-----------+----------------------
- 00:19:58(00:22:34) |  00:18:46(00:21:21) |  99.4( 99.5) |   23:47:24 (Mar06) |   1.50 GB | PBS_Generic_Opt-Post
+ 00:19:20(00:19:28) |  00:18:08(00:18:16) |  99.4( 99.2) |    3:42:45 (Mar07) |   1.57 GB | PBS_Generic_Opt-Post
 --------------------+---------------------+--------------+--------------------+-----------+----------------------
- 00:20:05(00:22:41) |  00:00:07(00:00:07) |   0.6(  0.5) |   23:47:31 (Mar06) |   1.04 GB | PBS_Generic-Postgen HBO Optimizations
+ 00:19:27(00:19:37) |  00:00:07(00:00:09) |   0.6(  0.8) |    3:42:54 (Mar07) |   1.04 GB | PBS_Generic-Postgen HBO Optimizations
 --------------------+---------------------+--------------+--------------------+-----------+----------------------
 Number of threads: 8 * 1   (id: pbs_debug, time_info v1.57)
 Info: (*N*) indicates data that was populated from previously saved time_info database
@@ -2008,7 +1997,7 @@ Info: CPU time includes time of parent + longest thread
 ##>----------------------------------------------------------------------------------------
 ##>STEP                           Elapsed       WNS       TNS     Insts      Area    Memory
 ##>----------------------------------------------------------------------------------------
-##>G:Initial                           11         -         -    137837    959374       619
+##>G:Initial                           10         -         -    137835    959359       625
 ##>G:Setup                              0         -         -         -         -         -
 ##>G:Launch ST                          0         -         -         -         -         -
 ##>G:Design Partition                   0         -         -         -         -         -
@@ -2022,17 +2011,17 @@ Info: CPU time includes time of parent + longest thread
 ##>G:Timer                              0         -         -         -         -         -
 ##>G:Assembly                           0         -         -         -         -         -
 ##>G:DFT                                0         -         -         -         -         -
-##>G:Const Prop                         7         -         -    290681   1065212      1037
-##>G:Misc                            1279
+##>G:Const Prop                         9         -         -    290732   1065348      1039
+##>G:Misc                            1095
 ##>----------------------------------------------------------------------------------------
-##>Total Elapsed                     1297
+##>Total Elapsed                     1114
 ##>========================================================================================
 Info    : Done synthesizing. [SYNTH-2]
         : Done synthesizing 'rv32i_core' to generic gates.
         Applying wireload models.
         Computing net loads.
      flow.cputime  flow.realtime  timing.setup.tns  timing.setup.wns  snapshot
-UM:          1716           1339                                      syn_generic
+UM:          1649           1152                                      syn_generic
 @genus:root: 18> write_hdl > $_OUTPUTS_PATH/generic.v
 @genus:root: 19> write_snapshot -outdir $_REPORTS_PATH -tag generic
         Computing arrivals and requireds.
@@ -2043,23 +2032,23 @@ QoS Summary for rv32i_core
 ================================================================================
 Metric                          generic        
 ================================================================================
-Slack (ps):                      -260
-  R2R (ps):                      -260
+Slack (ps):                      -304
+  R2R (ps):                      -304
   I2R (ps):                       325
   R2O (ps):                  no_value
   I2O (ps):                  no_value
   CG  (ps):                  no_value
-TNS (ps):                      67,278
-  R2R (ps):                    67,278
+TNS (ps):                      73,333
+  R2R (ps):                    73,333
   I2R (ps):                         0
   R2O (ps):                  no_value
   I2O (ps):                  no_value
   CG  (ps):                  no_value
 Failing Paths:                    296
-Cell Area:                  1,065,212
-Total Cell Area:            1,065,212
-Leaf Instances:               290,681
-Total Instances:              290,681
+Cell Area:                  1,065,348
+Total Cell Area:            1,065,348
+Leaf Instances:               290,732
+Total Instances:              290,732
 Utilization (%):                 0.00
 Tot. Net Length (um):        no_value
 Avg. Net Length (um):        no_value
@@ -2070,17 +2059,17 @@ Norm Cong Hotspot Area:
   Max Cong:                  no_value
   Tot Cong:                  no_value
 ================================================================================
-CPU  Runtime (h:m:s):        00:12:25
-Real Runtime (h:m:s):        00:23:36
-CPU  Elapsed (h:m:s):        00:12:32
-Real Elapsed (h:m:s):        00:23:38
-Memory (MB):                  1770.96
+CPU  Runtime (h:m:s):        00:12:22
+Real Runtime (h:m:s):        00:20:26
+CPU  Elapsed (h:m:s):        00:12:29
+Real Elapsed (h:m:s):        00:20:28
+Memory (MB):                  1756.91
 ================================================================================
 ================================================================================
 Flow Settings:
 ================================================================================
-Total Runtime (h:m:s): 00:23:57
-Total Memory (MB):     1770.96
+Total Runtime (h:m:s): 00:20:45
+Total Memory (MB):     1756.91
 Executable Version:    17.22-s017_1
 ================================================================================
 Total Cell Area =  Cell Area + Physical Cell Area
@@ -2095,8 +2084,8 @@ Warning : Possible timing problems have been detected in this design. [TIM-11]
 Warning : Did not find power models for RTL power analysis. [PA-17]
         : Design design:rv32i_core has no power models available.
         : The RTL power analysis results are more accurate when detailed power models are used. Use command 'build_rtl_power_models' to build detailed power models.
-Finished exporting design database to file 'report_1_3GHz/generic_rv32i_core.db' for 'rv32i_core' (command execution time mm:ss cpu = 00:16, real = 00:18).
-Finished generating snapshot at stage generic (command execution time mm:ss cpu = 00:19, real = 00:54).
+Finished exporting design database to file 'report_1_4GHz/generic_rv32i_core.db' for 'rv32i_core' (command execution time mm:ss cpu = 00:14, real = 00:17).
+Finished generating snapshot at stage generic (command execution time mm:ss cpu = 00:17, real = 00:52).
 @genus:root: 20> report_summary -directory $_REPORTS_PATH
 
 
@@ -2105,23 +2094,23 @@ QoS Summary for rv32i_core
 ================================================================================
 Metric                          generic        
 ================================================================================
-Slack (ps):                      -260
-  R2R (ps):                      -260
+Slack (ps):                      -304
+  R2R (ps):                      -304
   I2R (ps):                       325
   R2O (ps):                  no_value
   I2O (ps):                  no_value
   CG  (ps):                  no_value
-TNS (ps):                      67,278
-  R2R (ps):                    67,278
+TNS (ps):                      73,333
+  R2R (ps):                    73,333
   I2R (ps):                         0
   R2O (ps):                  no_value
   I2O (ps):                  no_value
   CG  (ps):                  no_value
 Failing Paths:                    296
-Cell Area:                  1,065,212
-Total Cell Area:            1,065,212
-Leaf Instances:               290,681
-Total Instances:              290,681
+Cell Area:                  1,065,348
+Total Cell Area:            1,065,348
+Leaf Instances:               290,732
+Total Instances:              290,732
 Utilization (%):                 0.00
 Tot. Net Length (um):        no_value
 Avg. Net Length (um):        no_value
@@ -2132,17 +2121,17 @@ Norm Cong Hotspot Area:
   Max Cong:                  no_value
   Tot Cong:                  no_value
 ================================================================================
-CPU  Runtime (h:m:s):        00:12:25
-Real Runtime (h:m:s):        00:23:36
-CPU  Elapsed (h:m:s):        00:12:32
-Real Elapsed (h:m:s):        00:23:38
-Memory (MB):                  1770.96
+CPU  Runtime (h:m:s):        00:12:22
+Real Runtime (h:m:s):        00:20:26
+CPU  Elapsed (h:m:s):        00:12:29
+Real Elapsed (h:m:s):        00:20:28
+Memory (MB):                  1756.91
 ================================================================================
 ================================================================================
 Flow Settings:
 ================================================================================
-Total Runtime (h:m:s): 00:24:30
-Total Memory (MB):     1770.96
+Total Runtime (h:m:s): 00:21:18
+Total Memory (MB):     1756.91
 Executable Version:    17.22-s017_1
 ================================================================================
 Total Cell Area =  Cell Area + Physical Cell Area
@@ -2183,7 +2172,7 @@ Multidriven hierarchical Pin(s)          0
 Multidriven unloaded net(s)              0 
 Constant Port(s)                         0 
 Constant Leaf Pin(s)                     0 
-Constant hierarchical Pin(s)            66 
+Constant hierarchical Pin(s)            65 
 Preserved leaf instance(s)               0 
 Preserved hierarchical instance(s)       0 
 Libcells with no LEF cell                0 
@@ -2193,5 +2182,3 @@ Physical only instance(s)                0
 Logical only instance(s)                 0 
 
   Done Checking the design.
-@genus:root: 26> report_optimization
-invalid command name "report_optimization"
