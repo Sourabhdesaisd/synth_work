@@ -1,0 +1,44 @@
+# Cadence Genus(TM) Synthesis Solution, Version 17.22-s017_1, built Apr  1 2018
+
+# Date: Wed Mar 06 22:12:00 2019
+# Host: compute-srv2.eda.atme.in (x86_64 w/Linux 3.10.0-1160.49.1.el7.x86_64) (8cores*64cpus*4physical cpus*Intel(R) Xeon(R) CPU E5-4650 0 @ 2.70GHz 20480KB)
+# OS:   CentOS Linux release 7.9.2009 (Core)
+
+set _REPORTS_PATH report_1_2GHz
+set _OUTPUTS_PATH outputs_1_2GHz
+set _LOG_PATH logs_1GHz
+set_db / .init_lib_search_path {../lib}
+set_db / .init_hdl_search_path {../rtl }
+ 
+set DESIGN rv32i_core
+read_libs { fast.lib slow.lib }
+read_hdl { 
+
+alu_top32.v          decode_unit.v               logical_unit32.v
+arithmetic_unit32.v  dynamic_branch_predictor.v  branch_jump_unit.v   execute_stage.v             mem_stage.v
+btb_file.v           ex_mem_pipe.v               mem_wb_pipe.v
+btb_read.v           forwarding_unit.v           pc_reg.v
+btb.v                hazard_unit.v               register_file.v
+btb_write.v          id_ex_pipe.v                rv32i_core.v
+compare_unit32.v     if_id_pipe.v                shift_unit32.v
+control_unit.v       if_stage_simple_btb.v       store_datapath.v
+data_memory.v        inst_mem.v                  top_decode.v
+data_mem_top.v       load_datapath.v             wb_stage.v  }
+set_db information_level 10
+set_db merge_combinational_hier_instances false
+set_db partition_based_synthesis false
+set_db auto_ungroup none
+set_db map_fancy_names 1
+elaborate $DESIGN
+read_sdc {../sdc/top_1GHz.sdc}
+set_db syn_generic_effort {high}
+syn_generic
+write_hdl > $_OUTPUTS_PATH/generic.v
+write_snapshot -outdir $_REPORTS_PATH -tag generic
+report_summary -directory $_REPORTS_PATH
+report_gates > $_REPORTS_PATH/generic_gates.rpt
+report_area > $_REPORTS_PATH/generic_area.rpt
+report_hierarchy > $_REPORTS_PATH/hierarchy_gen.rpt
+set_db design_power_effort high
+check_design
+q
